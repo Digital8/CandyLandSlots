@@ -1,0 +1,4 @@
+CandyLandSlots
+==============
+
+Candy Land Slots
