@@ -606,9 +606,7 @@
         <image name="coin.png" width="18" height="18"/>
         <image name="coin_behind.png" width="113" height="20"/>
         <image name="displayCoins.png" width="148" height="40"/>
-        <image name="displayCoins.png" width="148" height="40"/>
         <image name="downloadview_small.png" width="360" height="339"/>
-        <image name="feature_overlay.png" width="568" height="210"/>
         <image name="feature_overlay.png" width="568" height="210"/>
         <image name="home.png" width="25" height="20"/>
         <image name="kingMain.png" width="315" height="522"/>
@@ -616,16 +614,7 @@
         <image name="lollyPopCard.png" width="259" height="389"/>
         <image name="menu_bottom.png" width="568" height="90"/>
         <image name="menu_bottom_profile.png" width="123" height="40"/>
-        <image name="menu_bottom_profile.png" width="123" height="40"/>
         <image name="menu_bottom_settings.png" width="50" height="40"/>
-        <image name="move_coin.png" width="70" height="70"/>
-        <image name="move_coin.png" width="70" height="70"/>
-        <image name="move_coin.png" width="70" height="70"/>
-        <image name="move_coin.png" width="70" height="70"/>
-        <image name="move_coin.png" width="70" height="70"/>
-        <image name="move_coin.png" width="70" height="70"/>
-        <image name="move_coin.png" width="70" height="70"/>
-        <image name="move_coin.png" width="70" height="70"/>
         <image name="move_coin.png" width="70" height="70"/>
         <image name="rockyLandsCard-Locked.png" width="270" height="402"/>
         <image name="sound_on.png" width="25" height="20"/>
