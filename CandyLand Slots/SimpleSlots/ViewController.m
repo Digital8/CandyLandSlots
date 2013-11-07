@@ -237,12 +237,12 @@
         
     
     if(level >= 1){
-        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"game1@2x.png"]];
+        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"lollyPopCard.png"]];
         [game1 setImage:buttonImage forState:UIControlStateNormal];
         game1.userInteractionEnabled = YES;
     }
     if(level >= 1){
-        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"game2@2x.png"]];
+        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"sweetFieldsCard-Locked.png"]];
         [game2 setImage:buttonImage forState:UIControlStateNormal];
         game2.userInteractionEnabled = YES;
     }
@@ -252,16 +252,16 @@
         [game3 setImage:buttonImage forState:UIControlStateNormal];
         game3.userInteractionEnabled = YES;
     }else{
-        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"game3_locked@2x.png"]];
+        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"rockyLandsCard-Locked.png"]];
         [game3 setImage:buttonImage forState:UIControlStateNormal];
     }
     
     if(level >= 5){
-        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"game4@2x.png"]];
+        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"candiedCreekCard-Locked.png"]];
         [game4 setImage:buttonImage forState:UIControlStateNormal];
         game4.userInteractionEnabled = YES;
     }else{
-        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"game4_locked@2x.png"]];
+        UIImage *buttonImage = [UIImage imageForDeviceForName:[NSString stringWithFormat:@"candiedCreekCard-Locked.png"]];
         [game4 setImage:buttonImage forState:UIControlStateNormal];
     }
     

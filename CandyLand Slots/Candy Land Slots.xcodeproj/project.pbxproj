@@ -26,12 +26,9 @@
 		07A0DF13169DFBE300C13A0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A0DF12169DFBE300C13A0A /* QuartzCore.framework */; };
 		07A0DF30169E4DFA00C13A0A /* BonusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A0DF2C169E4DB500C13A0A /* BonusViewController.m */; };
 		07BB204516C15D7A00D4B2E2 /* GameClassic20.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BB204216C15D7A00D4B2E2 /* GameClassic20.m */; };
-		07D767D7160D103700826FBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D767D6160D103700826FBB /* Default-568h@2x.png */; };
 		07E2723A15D73EC300A108ED /* SKProduct+priceAsString.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E2723915D73EB500A108ED /* SKProduct+priceAsString.m */; };
 		07E2723B15D73EC300A108ED /* CoinsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E2723315D73B1500A108ED /* CoinsController.m */; };
 		07E2727215D73FF500A108ED /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E2727115D73FF500A108ED /* StoreKit.framework */; };
-		07E33C44171C118A00FD5AB7 /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E33C43171C118A00FD5AB7 /* icon-ipad.png */; };
-		07E33C46171C118F00FD5AB7 /* icon-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E33C45171C118F00FD5AB7 /* icon-ipad@2x.png */; };
 		07ED01B916FB40C8001A26E2 /* BonusDoubleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED01B216FB3F04001A26E2 /* BonusDoubleViewController.m */; };
 		07F0CC2315BB477F004D42E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F0CC2215BB477F004D42E0 /* AudioToolbox.framework */; };
 		07FCC82D1696543800D34257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FCC8261696537300D34257 /* ViewController.m */; };
@@ -40,6 +37,58 @@
 		07FCC87316979A0000D34257 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FCC87016979A0000D34257 /* NSString+Base64.m */; };
 		07FD303815B72CE900FDF532 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FD303715B72CE900FDF532 /* Security.framework */; };
 		07FD306415B9B1A900FDF532 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FD306315B9B1A900FDF532 /* OpenAL.framework */; };
+		3CB5CA43182BDD8700D918D0 /* apple-touch-icon-114x114-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA31182BDD8700D918D0 /* apple-touch-icon-114x114-precomposed.png */; };
+		3CB5CA44182BDD8700D918D0 /* apple-touch-icon-144x144-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA32182BDD8700D918D0 /* apple-touch-icon-144x144-precomposed.png */; };
+		3CB5CA45182BDD8700D918D0 /* apple-touch-icon-72x72-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA33182BDD8700D918D0 /* apple-touch-icon-72x72-precomposed.png */; };
+		3CB5CA46182BDD8700D918D0 /* apple-touch-icon-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA34182BDD8700D918D0 /* apple-touch-icon-precomposed.png */; };
+		3CB5CA47182BDD8700D918D0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA35182BDD8700D918D0 /* Icon-72.png */; };
+		3CB5CA48182BDD8700D918D0 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA36182BDD8700D918D0 /* Icon-72@2x.png */; };
+		3CB5CA49182BDD8700D918D0 /* Icon-Small-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA37182BDD8700D918D0 /* Icon-Small-20.png */; };
+		3CB5CA4A182BDD8700D918D0 /* Icon-Small-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA38182BDD8700D918D0 /* Icon-Small-20@2x.png */; };
+		3CB5CA4B182BDD8700D918D0 /* Icon-Small-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA39182BDD8700D918D0 /* Icon-Small-30.png */; };
+		3CB5CA4C182BDD8700D918D0 /* Icon-Small-30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA3A182BDD8700D918D0 /* Icon-Small-30@2x.png */; };
+		3CB5CA4D182BDD8700D918D0 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA3B182BDD8700D918D0 /* Icon-Small-50.png */; };
+		3CB5CA4E182BDD8700D918D0 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA3C182BDD8700D918D0 /* Icon-Small-50@2x.png */; };
+		3CB5CA4F182BDD8700D918D0 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA3D182BDD8700D918D0 /* Icon-Small.png */; };
+		3CB5CA50182BDD8700D918D0 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA3E182BDD8700D918D0 /* Icon-Small@2x.png */; };
+		3CB5CA51182BDD8700D918D0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA3F182BDD8700D918D0 /* Icon.png */; };
+		3CB5CA52182BDD8700D918D0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA40182BDD8700D918D0 /* Icon@2x.png */; };
+		3CB5CA53182BDD8700D918D0 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA41182BDD8700D918D0 /* iTunesArtwork.png */; };
+		3CB5CA54182BDD8700D918D0 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA42182BDD8700D918D0 /* iTunesArtwork@2x.png */; };
+		3CB5CA58182BDEA900D918D0 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA55182BDEA900D918D0 /* icon76.png */; };
+		3CB5CA59182BDEA900D918D0 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA56182BDEA900D918D0 /* icon120.png */; };
+		3CB5CA5A182BDEA900D918D0 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA57182BDEA900D918D0 /* icon152.png */; };
+		3CB5CA5D182BDFC100D918D0 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA5B182BDFC100D918D0 /* icon80.png */; };
+		3CB5CA5E182BDFC100D918D0 /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA5C182BDFC100D918D0 /* icon40.png */; };
+		3CB5CA79182BE09400D918D0 /* Coda-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA61182BE09400D918D0 /* Coda-Heavy.ttf */; };
+		3CB5CA7A182BE09400D918D0 /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA63182BE09400D918D0 /* GrandHotel-Regular.otf */; };
+		3CB5CA7B182BE09400D918D0 /* HennyPenny-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA65182BE09400D918D0 /* HennyPenny-Regular.otf */; };
+		3CB5CA7C182BE09400D918D0 /* NewRocker-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA67182BE09400D918D0 /* NewRocker-Regular.otf */; };
+		3CB5CA7D182BE09400D918D0 /* SpicyRice-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA69182BE09400D918D0 /* SpicyRice-Regular.otf */; };
+		3CB5CA7E182BE09400D918D0 /* Trocchi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA6B182BE09400D918D0 /* Trocchi-Bold.otf */; };
+		3CB5CA7F182BE09400D918D0 /* Trocchi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA6C182BE09400D918D0 /* Trocchi.otf */; };
+		3CB5CA80182BE09400D918D0 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA6E182BE09400D918D0 /* Ubuntu-B.ttf */; };
+		3CB5CA81182BE09400D918D0 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA6F182BE09400D918D0 /* Ubuntu-BI.ttf */; };
+		3CB5CA82182BE09400D918D0 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA70182BE09400D918D0 /* Ubuntu-C.ttf */; };
+		3CB5CA83182BE09400D918D0 /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA71182BE09400D918D0 /* Ubuntu-L.ttf */; };
+		3CB5CA84182BE09400D918D0 /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA72182BE09400D918D0 /* Ubuntu-LI.ttf */; };
+		3CB5CA85182BE09400D918D0 /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA73182BE09400D918D0 /* Ubuntu-M.ttf */; };
+		3CB5CA86182BE09400D918D0 /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA74182BE09400D918D0 /* Ubuntu-MI.ttf */; };
+		3CB5CA87182BE09400D918D0 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA75182BE09400D918D0 /* Ubuntu-R.ttf */; };
+		3CB5CA88182BE09400D918D0 /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA76182BE09400D918D0 /* Ubuntu-RI.ttf */; };
+		3CB5CA89182BE09400D918D0 /* UbuntuTitling-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA78182BE09400D918D0 /* UbuntuTitling-Bold.ttf */; };
+		3CB5CA8C182BE69000D918D0 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA8A182BE69000D918D0 /* arrowRight.png */; };
+		3CB5CA8D182BE69000D918D0 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA8B182BE69000D918D0 /* arrowLeft.png */; };
+		3CB5CA90182BE6A200D918D0 /* kingMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA8F182BE6A200D918D0 /* kingMain.png */; };
+		3CB5CA94182BEB3700D918D0 /* lollyPopCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA92182BEB3700D918D0 /* lollyPopCard.png */; };
+		3CB5CA95182BEB3700D918D0 /* topBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA93182BEB3700D918D0 /* topBar.png */; };
+		3CB5CA99182BF00800D918D0 /* candiedCreekCard-Locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA96182BF00800D918D0 /* candiedCreekCard-Locked.png */; };
+		3CB5CA9A182BF00800D918D0 /* rockyLandsCard-Locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA97182BF00800D918D0 /* rockyLandsCard-Locked.png */; };
+		3CB5CA9B182BF00800D918D0 /* sweetFieldsCard-Locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA98182BF00800D918D0 /* sweetFieldsCard-Locked.png */; };
+		3CB5CA9E182BF79500D918D0 /* bonusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA9D182BF79500D918D0 /* bonusButton.png */; };
+		3CB5CAA0182BFC0300D918D0 /* buyCoinsLobby.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA9F182BFC0300D918D0 /* buyCoinsLobby.png */; };
+		3CB5CAA2182BFDB400D918D0 /* bottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CAA1182BFDB400D918D0 /* bottomBar.png */; };
+		3CB5CAA4182BFDF500D918D0 /* candyLobbyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CAA3182BFDF500D918D0 /* candyLobbyBackground.png */; };
 		CE81F59A1764979900AAC7E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81F5991764979900AAC7E4 /* CFNetwork.framework */; };
 		CE81F5F31764BA4300AAC7E4 /* libChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81F5F11764BA4300AAC7E4 /* libChartboost.a */; };
 		CE81F5F41764BA4300AAC7E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE81F5F21764BA4300AAC7E4 /* README.md */; };
@@ -378,10 +427,6 @@
 		FA4225911795834A000B3B73 /* FUTRFW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FA4221D317958348000B3B73 /* FUTRFW.TTF */; };
 		FA4225D71795834A000B3B73 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42221B17958348000B3B73 /* home.png */; };
 		FA4225D81795834A000B3B73 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42221C17958348000B3B73 /* home@2x.png */; };
-		FA4225EE1795834A000B3B73 /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42223317958348000B3B73 /* icon-ipad.png */; };
-		FA4225EF1795834A000B3B73 /* icon-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42223417958348000B3B73 /* icon-ipad@2x.png */; };
-		FA4225F01795834A000B3B73 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42223517958348000B3B73 /* icon.png */; };
-		FA4225F11795834A000B3B73 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42223617958348000B3B73 /* icon@2x.png */; };
 		FA4225F21795834A000B3B73 /* ipad_chest.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42223917958348000B3B73 /* ipad_chest.png */; };
 		FA4225F31795834A000B3B73 /* ipad_chest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42223A17958348000B3B73 /* ipad_chest@2x.png */; };
 		FA4225F41795834A000B3B73 /* ipad_chest_open.png in Resources */ = {isa = PBXBuildFile; fileRef = FA42223B17958348000B3B73 /* ipad_chest_open.png */; };
@@ -935,14 +980,14 @@
 		074A9B1016F5CE82004473F4 /* BonusChestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonusChestViewController.m; sourceTree = "<group>"; };
 		074E630016E3699A00F079AA /* UIDeviceHardware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = SimpleSlots/UIDeviceHardware.h; sourceTree = SOURCE_ROOT; };
 		074E630116E3699A00F079AA /* UIDeviceHardware.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = SimpleSlots/UIDeviceHardware.m; sourceTree = SOURCE_ROOT; };
-		07573F5115B4D35B00E5B7FE /* PartySlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartySlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07573F5115B4D35B00E5B7FE /* Candy Land Slots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candy Land Slots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07573F5515B4D35B00E5B7FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07573F5715B4D35B00E5B7FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07573F5915B4D35B00E5B7FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		07573F5D15B4D35B00E5B7FE /* PartySlots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartySlots-Info.plist"; sourceTree = "<group>"; };
+		07573F5D15B4D35B00E5B7FE /* Candy Land Slots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Candy Land Slots-Info.plist"; sourceTree = "<group>"; };
 		07573F5F15B4D35B00E5B7FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07573F6115B4D35B00E5B7FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07573F6315B4D35B00E5B7FE /* PartySlots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PartySlots-Prefix.pch"; sourceTree = "<group>"; };
+		07573F6315B4D35B00E5B7FE /* Candy Land Slots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Candy Land Slots-Prefix.pch"; sourceTree = "<group>"; };
 		07573F6415B4D35C00E5B7FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07573F6515B4D35C00E5B7FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0760B63C16A39947003CA759 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -954,32 +999,81 @@
 		07A0DF2C169E4DB500C13A0A /* BonusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonusViewController.m; sourceTree = "<group>"; };
 		07BB204116C15D7A00D4B2E2 /* GameClassic20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameClassic20.h; sourceTree = "<group>"; };
 		07BB204216C15D7A00D4B2E2 /* GameClassic20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameClassic20.m; sourceTree = "<group>"; };
-		07D767D6160D103700826FBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		07E2723215D73B1500A108ED /* CoinsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinsController.h; sourceTree = "<group>"; };
 		07E2723315D73B1500A108ED /* CoinsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinsController.m; sourceTree = "<group>"; };
 		07E2723815D73EB500A108ED /* SKProduct+priceAsString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKProduct+priceAsString.h"; sourceTree = "<group>"; };
 		07E2723915D73EB500A108ED /* SKProduct+priceAsString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+priceAsString.m"; sourceTree = "<group>"; };
 		07E2727115D73FF500A108ED /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		07E33C43171C118A00FD5AB7 /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
-		07E33C45171C118F00FD5AB7 /* icon-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad@2x.png"; sourceTree = "<group>"; };
 		07ED01B116FB3F04001A26E2 /* BonusDoubleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BonusDoubleViewController.h; sourceTree = "<group>"; };
 		07ED01B216FB3F04001A26E2 /* BonusDoubleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonusDoubleViewController.m; sourceTree = "<group>"; };
 		07F0CC2215BB477F004D42E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		07FCC8251696537300D34257 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		07FCC8261696537300D34257 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		07FCC86B16979A0000D34257 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
-		07FCC86C16979A0000D34257 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
-		07FCC86D16979A0000D34257 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		07FCC86E16979A0000D34257 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		07FCC86F16979A0000D34257 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
-		07FCC87016979A0000D34257 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		07FCC86B16979A0000D34257 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+AES.h"; path = "SimpleSlots/lib/NSData+AES.h"; sourceTree = "<group>"; };
+		07FCC86C16979A0000D34257 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES.m"; path = "SimpleSlots/lib/NSData+AES.m"; sourceTree = "<group>"; };
+		07FCC86D16979A0000D34257 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "SimpleSlots/lib/NSData+Base64.h"; sourceTree = "<group>"; };
+		07FCC86E16979A0000D34257 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "SimpleSlots/lib/NSData+Base64.m"; sourceTree = "<group>"; };
+		07FCC86F16979A0000D34257 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "SimpleSlots/lib/NSString+Base64.h"; sourceTree = "<group>"; };
+		07FCC87016979A0000D34257 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "SimpleSlots/lib/NSString+Base64.m"; sourceTree = "<group>"; };
 		07FD303715B72CE900FDF532 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		07FD306315B9B1A900FDF532 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		3CB5CA31182BDD8700D918D0 /* apple-touch-icon-114x114-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-114x114-precomposed.png"; sourceTree = "<group>"; };
+		3CB5CA32182BDD8700D918D0 /* apple-touch-icon-144x144-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-144x144-precomposed.png"; sourceTree = "<group>"; };
+		3CB5CA33182BDD8700D918D0 /* apple-touch-icon-72x72-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-72x72-precomposed.png"; sourceTree = "<group>"; };
+		3CB5CA34182BDD8700D918D0 /* apple-touch-icon-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-precomposed.png"; sourceTree = "<group>"; };
+		3CB5CA35182BDD8700D918D0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3CB5CA36182BDD8700D918D0 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		3CB5CA37182BDD8700D918D0 /* Icon-Small-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-20.png"; sourceTree = "<group>"; };
+		3CB5CA38182BDD8700D918D0 /* Icon-Small-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-20@2x.png"; sourceTree = "<group>"; };
+		3CB5CA39182BDD8700D918D0 /* Icon-Small-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-30.png"; sourceTree = "<group>"; };
+		3CB5CA3A182BDD8700D918D0 /* Icon-Small-30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-30@2x.png"; sourceTree = "<group>"; };
+		3CB5CA3B182BDD8700D918D0 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		3CB5CA3C182BDD8700D918D0 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		3CB5CA3D182BDD8700D918D0 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		3CB5CA3E182BDD8700D918D0 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		3CB5CA3F182BDD8700D918D0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3CB5CA40182BDD8700D918D0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3CB5CA41182BDD8700D918D0 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		3CB5CA42182BDD8700D918D0 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		3CB5CA55182BDEA900D918D0 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon76.png; path = ../icon76.png; sourceTree = "<group>"; };
+		3CB5CA56182BDEA900D918D0 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon120.png; path = ../icon120.png; sourceTree = "<group>"; };
+		3CB5CA57182BDEA900D918D0 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon152.png; path = ../icon152.png; sourceTree = "<group>"; };
+		3CB5CA5B182BDFC100D918D0 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		3CB5CA5C182BDFC100D918D0 /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		3CB5CA61182BE09400D918D0 /* Coda-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Coda-Heavy.ttf"; sourceTree = "<group>"; };
+		3CB5CA63182BE09400D918D0 /* GrandHotel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.otf"; sourceTree = "<group>"; };
+		3CB5CA65182BE09400D918D0 /* HennyPenny-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HennyPenny-Regular.otf"; sourceTree = "<group>"; };
+		3CB5CA67182BE09400D918D0 /* NewRocker-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewRocker-Regular.otf"; sourceTree = "<group>"; };
+		3CB5CA69182BE09400D918D0 /* SpicyRice-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpicyRice-Regular.otf"; sourceTree = "<group>"; };
+		3CB5CA6B182BE09400D918D0 /* Trocchi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trocchi-Bold.otf"; sourceTree = "<group>"; };
+		3CB5CA6C182BE09400D918D0 /* Trocchi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trocchi.otf; sourceTree = "<group>"; };
+		3CB5CA6E182BE09400D918D0 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		3CB5CA6F182BE09400D918D0 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
+		3CB5CA70182BE09400D918D0 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
+		3CB5CA71182BE09400D918D0 /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		3CB5CA72182BE09400D918D0 /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
+		3CB5CA73182BE09400D918D0 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		3CB5CA74182BE09400D918D0 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
+		3CB5CA75182BE09400D918D0 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		3CB5CA76182BE09400D918D0 /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
+		3CB5CA78182BE09400D918D0 /* UbuntuTitling-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuTitling-Bold.ttf"; sourceTree = "<group>"; };
+		3CB5CA8A182BE69000D918D0 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
+		3CB5CA8B182BE69000D918D0 /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft.png; sourceTree = "<group>"; };
+		3CB5CA8F182BE6A200D918D0 /* kingMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kingMain.png; sourceTree = "<group>"; };
+		3CB5CA92182BEB3700D918D0 /* lollyPopCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lollyPopCard.png; sourceTree = "<group>"; };
+		3CB5CA93182BEB3700D918D0 /* topBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBar.png; sourceTree = "<group>"; };
+		3CB5CA96182BF00800D918D0 /* candiedCreekCard-Locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "candiedCreekCard-Locked.png"; sourceTree = "<group>"; };
+		3CB5CA97182BF00800D918D0 /* rockyLandsCard-Locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rockyLandsCard-Locked.png"; sourceTree = "<group>"; };
+		3CB5CA98182BF00800D918D0 /* sweetFieldsCard-Locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweetFieldsCard-Locked.png"; sourceTree = "<group>"; };
+		3CB5CA9D182BF79500D918D0 /* bonusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonusButton.png; sourceTree = "<group>"; };
+		3CB5CA9F182BFC0300D918D0 /* buyCoinsLobby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyCoinsLobby.png; sourceTree = "<group>"; };
+		3CB5CAA1182BFDB400D918D0 /* bottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomBar.png; sourceTree = "<group>"; };
+		3CB5CAA3182BFDF500D918D0 /* candyLobbyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candyLobbyBackground.png; sourceTree = "<group>"; };
 		CE81F5991764979900AAC7E4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CE81F5F01764BA4300AAC7E4 /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
 		CE81F5F11764BA4300AAC7E4 /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libChartboost.a; sourceTree = "<group>"; };
 		CE81F5F21764BA4300AAC7E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		CE81F5F51764CDDB00AAC7E4 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		CE81F5F51764CDDB00AAC7E4 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = SimpleSlots/lib/RevMobAds.framework; sourceTree = "<group>"; };
 		CE81F5FE1764DB3500AAC7E4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		CE81F6001764DB4C00AAC7E4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		CE81F6041765B83C00AAC7E4 /* CoinsController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoinsController~ipad.xib"; sourceTree = "<group>"; };
@@ -1395,10 +1489,6 @@
 		FA4221D317958348000B3B73 /* FUTRFW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FUTRFW.TTF; sourceTree = "<group>"; };
 		FA42221B17958348000B3B73 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		FA42221C17958348000B3B73 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
-		FA42223317958348000B3B73 /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
-		FA42223417958348000B3B73 /* icon-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad@2x.png"; sourceTree = "<group>"; };
-		FA42223517958348000B3B73 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		FA42223617958348000B3B73 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		FA42223917958348000B3B73 /* ipad_chest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_chest.png; sourceTree = "<group>"; };
 		FA42223A17958348000B3B73 /* ipad_chest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_chest@2x.png"; sourceTree = "<group>"; };
 		FA42223B17958348000B3B73 /* ipad_chest_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_chest_open.png; sourceTree = "<group>"; };
@@ -1975,26 +2065,36 @@
 		07573F4615B4D35B00E5B7FE = {
 			isa = PBXGroup;
 			children = (
-				07E33C45171C118F00FD5AB7 /* icon-ipad@2x.png */,
-				07E33C43171C118A00FD5AB7 /* icon-ipad.png */,
-				07D767D6160D103700826FBB /* Default-568h@2x.png */,
 				07573F5B15B4D35B00E5B7FE /* SimpleSlots */,
 				07573F5415B4D35B00E5B7FE /* Frameworks */,
-				07573F5215B4D35B00E5B7FE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 		07573F5215B4D35B00E5B7FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07573F5115B4D35B00E5B7FE /* PartySlots.app */,
+				07573F5115B4D35B00E5B7FE /* Candy Land Slots.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		07573F5415B4D35B00E5B7FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA943C6C1796E8F7003DB869 /* Utilities */,
+				FA1C595A179D8592000439BC /* JSON */,
+				FA421EFE17954857000B3B73 /* ObjectAL */,
+				D762C8A7176FA6F100D24140 /* Applovin */,
+				D730CD11176BED0700E215E0 /* PlayHaven SDK */,
+				CE81F5F51764CDDB00AAC7E4 /* RevMobAds.framework */,
+				CE81F5EF1764BA4300AAC7E4 /* Chartboost */,
+				07FCC86B16979A0000D34257 /* NSData+AES.h */,
+				07FCC86C16979A0000D34257 /* NSData+AES.m */,
+				07FCC86D16979A0000D34257 /* NSData+Base64.h */,
+				07FCC86E16979A0000D34257 /* NSData+Base64.m */,
+				07FCC86F16979A0000D34257 /* NSString+Base64.h */,
+				07FCC87016979A0000D34257 /* NSString+Base64.m */,
 				CE81F6001764DB4C00AAC7E4 /* MediaPlayer.framework */,
 				CE81F5FE1764DB3500AAC7E4 /* CoreTelephony.framework */,
 				CE81F5991764979900AAC7E4 /* CFNetwork.framework */,
@@ -2021,6 +2121,7 @@
 		07573F5B15B4D35B00E5B7FE /* SimpleSlots */ = {
 			isa = PBXGroup;
 			children = (
+				07573F5215B4D35B00E5B7FE /* Products */,
 				FA287BEA179D1BE3005BA9D7 /* Configure.h */,
 				07573F6415B4D35C00E5B7FE /* AppDelegate.h */,
 				07573F6515B4D35C00E5B7FE /* AppDelegate.m */,
@@ -2038,10 +2139,10 @@
 				07BB204216C15D7A00D4B2E2 /* GameClassic20.m */,
 				FA42204517954991000B3B73 /* GameClassic20~iphone.xib */,
 				FA42204417954991000B3B73 /* GameClassic20~ipad.xib */,
+				3CB5CA30182BDD8700D918D0 /* Icons */,
+				3CB5CA2F182BDC6D00D918D0 /* New Resources */,
 				FA943C6B1796E8A0003DB869 /* Bonus */,
-				FA943C6C1796E8F7003DB869 /* Utilities */,
-				FA4220B717958346000B3B73 /* artwork */,
-				07FCC86A16979A0000D34257 /* lib */,
+				FA4220B717958346000B3B73 /* Resources */,
 				07573F5C15B4D35B00E5B7FE /* Supporting Files */,
 			);
 			path = SimpleSlots;
@@ -2051,31 +2152,174 @@
 			isa = PBXGroup;
 			children = (
 				FA421F6B17954990000B3B73 /* en.lproj */,
-				07573F5D15B4D35B00E5B7FE /* PartySlots-Info.plist */,
+				07573F5D15B4D35B00E5B7FE /* Candy Land Slots-Info.plist */,
 				07573F5E15B4D35B00E5B7FE /* InfoPlist.strings */,
 				07573F6115B4D35B00E5B7FE /* main.m */,
-				07573F6315B4D35B00E5B7FE /* PartySlots-Prefix.pch */,
+				07573F6315B4D35B00E5B7FE /* Candy Land Slots-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		07FCC86A16979A0000D34257 /* lib */ = {
+		3CB5CA2F182BDC6D00D918D0 /* New Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA1C595A179D8592000439BC /* JSON */,
-				FA421EFE17954857000B3B73 /* ObjectAL */,
-				D762C8A7176FA6F100D24140 /* Applovin */,
-				D730CD11176BED0700E215E0 /* PlayHaven SDK */,
-				CE81F5F51764CDDB00AAC7E4 /* RevMobAds.framework */,
-				CE81F5EF1764BA4300AAC7E4 /* Chartboost */,
-				07FCC86B16979A0000D34257 /* NSData+AES.h */,
-				07FCC86C16979A0000D34257 /* NSData+AES.m */,
-				07FCC86D16979A0000D34257 /* NSData+Base64.h */,
-				07FCC86E16979A0000D34257 /* NSData+Base64.m */,
-				07FCC86F16979A0000D34257 /* NSString+Base64.h */,
-				07FCC87016979A0000D34257 /* NSString+Base64.m */,
+				3CB5CA91182BE6A700D918D0 /* Candy Land Lobby */,
+				3CB5CA8E182BE69400D918D0 /* Lobby UI */,
+				3CB5CA5F182BE09400D918D0 /* Font Families */,
 			);
-			path = lib;
+			name = "New Resources";
+			sourceTree = "<group>";
+		};
+		3CB5CA30182BDD8700D918D0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA55182BDEA900D918D0 /* icon76.png */,
+				3CB5CA5B182BDFC100D918D0 /* icon80.png */,
+				3CB5CA5C182BDFC100D918D0 /* icon40.png */,
+				3CB5CA56182BDEA900D918D0 /* icon120.png */,
+				3CB5CA57182BDEA900D918D0 /* icon152.png */,
+				3CB5CA31182BDD8700D918D0 /* apple-touch-icon-114x114-precomposed.png */,
+				3CB5CA32182BDD8700D918D0 /* apple-touch-icon-144x144-precomposed.png */,
+				3CB5CA33182BDD8700D918D0 /* apple-touch-icon-72x72-precomposed.png */,
+				3CB5CA34182BDD8700D918D0 /* apple-touch-icon-precomposed.png */,
+				3CB5CA35182BDD8700D918D0 /* Icon-72.png */,
+				3CB5CA36182BDD8700D918D0 /* Icon-72@2x.png */,
+				3CB5CA37182BDD8700D918D0 /* Icon-Small-20.png */,
+				3CB5CA38182BDD8700D918D0 /* Icon-Small-20@2x.png */,
+				3CB5CA39182BDD8700D918D0 /* Icon-Small-30.png */,
+				3CB5CA3A182BDD8700D918D0 /* Icon-Small-30@2x.png */,
+				3CB5CA3B182BDD8700D918D0 /* Icon-Small-50.png */,
+				3CB5CA3C182BDD8700D918D0 /* Icon-Small-50@2x.png */,
+				3CB5CA3D182BDD8700D918D0 /* Icon-Small.png */,
+				3CB5CA3E182BDD8700D918D0 /* Icon-Small@2x.png */,
+				3CB5CA3F182BDD8700D918D0 /* Icon.png */,
+				3CB5CA40182BDD8700D918D0 /* Icon@2x.png */,
+				3CB5CA41182BDD8700D918D0 /* iTunesArtwork.png */,
+				3CB5CA42182BDD8700D918D0 /* iTunesArtwork@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		3CB5CA5F182BE09400D918D0 /* Font Families */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA60182BE09400D918D0 /* coda */,
+				3CB5CA62182BE09400D918D0 /* grand-hotel */,
+				3CB5CA64182BE09400D918D0 /* henny-penny */,
+				3CB5CA66182BE09400D918D0 /* new-rocker */,
+				3CB5CA68182BE09400D918D0 /* spicy-rice */,
+				3CB5CA6A182BE09400D918D0 /* trocchi */,
+				3CB5CA6D182BE09400D918D0 /* ubuntu */,
+				3CB5CA77182BE09400D918D0 /* Ubuntu-Titling */,
+			);
+			path = "Font Families";
+			sourceTree = "<group>";
+		};
+		3CB5CA60182BE09400D918D0 /* coda */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA61182BE09400D918D0 /* Coda-Heavy.ttf */,
+			);
+			path = coda;
+			sourceTree = "<group>";
+		};
+		3CB5CA62182BE09400D918D0 /* grand-hotel */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA63182BE09400D918D0 /* GrandHotel-Regular.otf */,
+			);
+			path = "grand-hotel";
+			sourceTree = "<group>";
+		};
+		3CB5CA64182BE09400D918D0 /* henny-penny */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA65182BE09400D918D0 /* HennyPenny-Regular.otf */,
+			);
+			path = "henny-penny";
+			sourceTree = "<group>";
+		};
+		3CB5CA66182BE09400D918D0 /* new-rocker */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA67182BE09400D918D0 /* NewRocker-Regular.otf */,
+			);
+			path = "new-rocker";
+			sourceTree = "<group>";
+		};
+		3CB5CA68182BE09400D918D0 /* spicy-rice */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA69182BE09400D918D0 /* SpicyRice-Regular.otf */,
+			);
+			path = "spicy-rice";
+			sourceTree = "<group>";
+		};
+		3CB5CA6A182BE09400D918D0 /* trocchi */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA6B182BE09400D918D0 /* Trocchi-Bold.otf */,
+				3CB5CA6C182BE09400D918D0 /* Trocchi.otf */,
+			);
+			path = trocchi;
+			sourceTree = "<group>";
+		};
+		3CB5CA6D182BE09400D918D0 /* ubuntu */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA6E182BE09400D918D0 /* Ubuntu-B.ttf */,
+				3CB5CA6F182BE09400D918D0 /* Ubuntu-BI.ttf */,
+				3CB5CA70182BE09400D918D0 /* Ubuntu-C.ttf */,
+				3CB5CA71182BE09400D918D0 /* Ubuntu-L.ttf */,
+				3CB5CA72182BE09400D918D0 /* Ubuntu-LI.ttf */,
+				3CB5CA73182BE09400D918D0 /* Ubuntu-M.ttf */,
+				3CB5CA74182BE09400D918D0 /* Ubuntu-MI.ttf */,
+				3CB5CA75182BE09400D918D0 /* Ubuntu-R.ttf */,
+				3CB5CA76182BE09400D918D0 /* Ubuntu-RI.ttf */,
+			);
+			path = ubuntu;
+			sourceTree = "<group>";
+		};
+		3CB5CA77182BE09400D918D0 /* Ubuntu-Titling */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA78182BE09400D918D0 /* UbuntuTitling-Bold.ttf */,
+			);
+			path = "Ubuntu-Titling";
+			sourceTree = "<group>";
+		};
+		3CB5CA8E182BE69400D918D0 /* Lobby UI */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA8A182BE69000D918D0 /* arrowRight.png */,
+				3CB5CA8B182BE69000D918D0 /* arrowLeft.png */,
+			);
+			name = "Lobby UI";
+			sourceTree = "<group>";
+		};
+		3CB5CA91182BE6A700D918D0 /* Candy Land Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA9C182BF01500D918D0 /* Cards Locked */,
+				3CB5CA92182BEB3700D918D0 /* lollyPopCard.png */,
+				3CB5CA93182BEB3700D918D0 /* topBar.png */,
+				3CB5CA9D182BF79500D918D0 /* bonusButton.png */,
+				3CB5CAA1182BFDB400D918D0 /* bottomBar.png */,
+				3CB5CAA3182BFDF500D918D0 /* candyLobbyBackground.png */,
+				3CB5CA9F182BFC0300D918D0 /* buyCoinsLobby.png */,
+				3CB5CA8F182BE6A200D918D0 /* kingMain.png */,
+			);
+			name = "Candy Land Lobby";
+			sourceTree = "<group>";
+		};
+		3CB5CA9C182BF01500D918D0 /* Cards Locked */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5CA96182BF00800D918D0 /* candiedCreekCard-Locked.png */,
+				3CB5CA97182BF00800D918D0 /* rockyLandsCard-Locked.png */,
+				3CB5CA98182BF00800D918D0 /* sweetFieldsCard-Locked.png */,
+			);
+			name = "Cards Locked";
 			sourceTree = "<group>";
 		};
 		CE81F5EF1764BA4300AAC7E4 /* Chartboost */ = {
@@ -2085,7 +2329,8 @@
 				CE81F5F11764BA4300AAC7E4 /* libChartboost.a */,
 				CE81F5F21764BA4300AAC7E4 /* README.md */,
 			);
-			path = Chartboost;
+			name = Chartboost;
+			path = SimpleSlots/lib/Chartboost;
 			sourceTree = "<group>";
 		};
 		D730CD11176BED0700E215E0 /* PlayHaven SDK */ = {
@@ -2094,7 +2339,8 @@
 				D730CD12176BED0700E215E0 /* Cache */,
 				D730CD27176BED0700E215E0 /* src */,
 			);
-			path = "PlayHaven SDK";
+			name = "PlayHaven SDK";
+			path = "SimpleSlots/lib/PlayHaven SDK";
 			sourceTree = "<group>";
 		};
 		D730CD12176BED0700E215E0 /* Cache */ = {
@@ -2169,7 +2415,8 @@
 				D762C8A8176FA6F100D24140 /* headers */,
 				D762C8B4176FA6F100D24140 /* libAppLovinSdk.a */,
 			);
-			path = Applovin;
+			name = Applovin;
+			path = SimpleSlots/lib/Applovin;
 			sourceTree = "<group>";
 		};
 		D762C8A8176FA6F100D24140 /* headers */ = {
@@ -2207,7 +2454,8 @@
 				FA1C5966179D8592000439BC /* SBJsonWriter.h */,
 				FA1C5967179D8592000439BC /* SBJsonWriter.m */,
 			);
-			path = JSON;
+			name = JSON;
+			path = SimpleSlots/lib/JSON;
 			sourceTree = "<group>";
 		};
 		FA421EFE17954857000B3B73 /* ObjectAL */ = {
@@ -2224,7 +2472,8 @@
 				FA421F2C17954857000B3B73 /* Session */,
 				FA421F3117954857000B3B73 /* Support */,
 			);
-			path = ObjectAL;
+			name = ObjectAL;
+			path = SimpleSlots/lib/ObjectAL;
 			sourceTree = "<group>";
 		};
 		FA421EFF17954857000B3B73 /* Actions */ = {
@@ -2327,7 +2576,7 @@
 			path = en.lproj;
 			sourceTree = "<group>";
 		};
-		FA4220B717958346000B3B73 /* artwork */ = {
+		FA4220B717958346000B3B73 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				FAD00F8D17A97155007186F1 /* allcoins@2x.png */,
@@ -2342,8 +2591,6 @@
 				FA4220D617958347000B3B73 /* bonus_popup@2x.png */,
 				FA4220D717958347000B3B73 /* bonus_textarea@2x.png */,
 				FA4220D817958347000B3B73 /* bonus_wintext@2x.png */,
-				FA4220D917958347000B3B73 /* box */,
-				FA42211617958347000B3B73 /* bundles */,
 				FA42217B17958347000B3B73 /* buttonAutoSpin@2x.png */,
 				FA42217C17958347000B3B73 /* buttonClose.png */,
 				FA42217D17958347000B3B73 /* buttonClose@2x.png */,
@@ -2357,9 +2604,6 @@
 				FA42218517958347000B3B73 /* buttonValue@2x.png */,
 				FA42218617958347000B3B73 /* buycoins.png */,
 				FA42218717958347000B3B73 /* buycoins@2x.png */,
-				FA42218817958347000B3B73 /* chest */,
-				FA42219517958347000B3B73 /* coins */,
-				FA4221B217958347000B3B73 /* design */,
 				FA4221C117958348000B3B73 /* diamond.png */,
 				FA4221C217958348000B3B73 /* displayBuyCoins.png */,
 				FA4221C317958348000B3B73 /* displayBuyCoins@2x.png */,
@@ -2375,14 +2619,8 @@
 				FA4221CD17958348000B3B73 /* downloadview_small@2x.png */,
 				FA4221CE17958348000B3B73 /* feature_overlay.png */,
 				FA4221CF17958348000B3B73 /* feature_overlay@2x.png */,
-				FA4221D017958348000B3B73 /* fonts */,
 				FA42221B17958348000B3B73 /* home.png */,
 				FA42221C17958348000B3B73 /* home@2x.png */,
-				FA42223317958348000B3B73 /* icon-ipad.png */,
-				FA42223417958348000B3B73 /* icon-ipad@2x.png */,
-				FA42223517958348000B3B73 /* icon.png */,
-				FA42223617958348000B3B73 /* icon@2x.png */,
-				FA42223717958348000B3B73 /* ipad */,
 				FA42223F17958348000B3B73 /* ipad_30_line_left@2x.png */,
 				FA42224017958348000B3B73 /* ipad_30_line_right@2x.png */,
 				FA42224217958348000B3B73 /* ipad_bonus_textarea@2x.png */,
@@ -2404,15 +2642,10 @@
 				FA42225617958348000B3B73 /* item_jackpot@2x.png */,
 				FA42225717958348000B3B73 /* item_red.png */,
 				FA42225817958348000B3B73 /* item_red@2x.png */,
-				FA42228217958348000B3B73 /* level */,
-				FA4222A417958348000B3B73 /* line_button */,
 				FA4222E317958349000B3B73 /* line_cover.png */,
 				FA4222E417958349000B3B73 /* line_cover@2x.png */,
-				FA4222E517958349000B3B73 /* lines */,
 				FA42234A17958349000B3B73 /* logo.png */,
 				FA42234B17958349000B3B73 /* logo@2x.png */,
-				FA42236117958349000B3B73 /* menu */,
-				FA42237B17958349000B3B73 /* move */,
 				FA42238C17958349000B3B73 /* nudge_button.png */,
 				FA42238D17958349000B3B73 /* nudge_button@2x.png */,
 				FA42238E17958349000B3B73 /* patterspin.png */,
@@ -2423,7 +2656,6 @@
 				FA4224301795834A000B3B73 /* sound_on@2x.png */,
 				FA42224F17958348000B3B73 /* ipad_sound_off@2x.png */,
 				FA42225017958348000B3B73 /* ipad_sound_on@2x.png */,
-				FA4224311795834A000B3B73 /* sounds */,
 				FA4224381795834A000B3B73 /* spacer_left@2x.png */,
 				FA4224391795834A000B3B73 /* spacer_right@2x.png */,
 				FA42243A1795834A000B3B73 /* spinButton.png */,
@@ -2448,8 +2680,21 @@
 				FA4224651795834A000B3B73 /* top@2x.png */,
 				FA4224661795834A000B3B73 /* toplogo.png */,
 				FA4224671795834A000B3B73 /* toplogo@2x.png */,
+				FA4220D917958347000B3B73 /* box */,
+				FA42211617958347000B3B73 /* bundles */,
+				FA42218817958347000B3B73 /* chest */,
+				FA42219517958347000B3B73 /* coins */,
+				FA4221B217958347000B3B73 /* design */,
+				FA4221D017958348000B3B73 /* fonts */,
+				FA42223717958348000B3B73 /* ipad */,
+				FA42228217958348000B3B73 /* level */,
+				FA4222A417958348000B3B73 /* line_button */,
+				FA4222E517958349000B3B73 /* lines */,
+				FA42236117958349000B3B73 /* menu */,
+				FA42237B17958349000B3B73 /* move */,
+				FA4224311795834A000B3B73 /* sounds */,
 			);
-			name = artwork;
+			name = Resources;
 			path = SimpleSlots/artwork;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -3052,6 +3297,7 @@
 				0714CAD715DDA10B00FBD76A /* Reachability.m */,
 			);
 			name = Utilities;
+			path = SimpleSlots;
 			sourceTree = "<group>";
 		};
 		FAD00DB617A941A4007186F1 /* reskin */ = {
@@ -3373,9 +3619,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07573F5015B4D35B00E5B7FE /* PartySlots */ = {
+		07573F5015B4D35B00E5B7FE /* Candy Land Slots */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07573F6F15B4D35C00E5B7FE /* Build configuration list for PBXNativeTarget "PartySlots" */;
+			buildConfigurationList = 07573F6F15B4D35C00E5B7FE /* Build configuration list for PBXNativeTarget "Candy Land Slots" */;
 			buildPhases = (
 				07573F4D15B4D35B00E5B7FE /* Sources */,
 				07573F4E15B4D35B00E5B7FE /* Frameworks */,
@@ -3385,9 +3631,9 @@
 			);
 			dependencies = (
 			);
-			name = PartySlots;
+			name = "Candy Land Slots";
 			productName = SimpleSlots;
-			productReference = 07573F5115B4D35B00E5B7FE /* PartySlots.app */;
+			productReference = 07573F5115B4D35B00E5B7FE /* Candy Land Slots.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -3398,7 +3644,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = 07573F4B15B4D35B00E5B7FE /* Build configuration list for PBXProject "PartySlots" */;
+			buildConfigurationList = 07573F4B15B4D35B00E5B7FE /* Build configuration list for PBXProject "Candy Land Slots" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -3410,7 +3656,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07573F5015B4D35B00E5B7FE /* PartySlots */,
+				07573F5015B4D35B00E5B7FE /* Candy Land Slots */,
 			);
 		};
 /* End PBXProject section */
@@ -3421,11 +3667,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07573F6015B4D35B00E5B7FE /* InfoPlist.strings in Resources */,
-				07D767D7160D103700826FBB /* Default-568h@2x.png in Resources */,
-				07E33C44171C118A00FD5AB7 /* icon-ipad.png in Resources */,
-				07E33C46171C118F00FD5AB7 /* icon-ipad@2x.png in Resources */,
 				CE81F5F41764BA4300AAC7E4 /* README.md in Resources */,
 				CE81F6051765B83D00AAC7E4 /* CoinsController~ipad.xib in Resources */,
+				3CB5CA88182BE09400D918D0 /* Ubuntu-RI.ttf in Resources */,
+				3CB5CA4B182BDD8700D918D0 /* Icon-Small-30.png in Resources */,
 				D730CD57176BED0700E215E0 /* LICENCE in Resources */,
 				FA421F5717954857000B3B73 /* LICENSE.ObjectAL.txt in Resources */,
 				FA42205017954991000B3B73 /* InfoPlist.strings in Resources */,
@@ -3466,7 +3711,9 @@
 				FA4224AA1795834A000B3B73 /* box_22@2x.png in Resources */,
 				FA4224AB1795834A000B3B73 /* box_23@2x.png in Resources */,
 				FA4224AC1795834A000B3B73 /* box_24@2x.png in Resources */,
+				3CB5CA58182BDEA900D918D0 /* icon76.png in Resources */,
 				FA4224AD1795834A000B3B73 /* box_25@2x.png in Resources */,
+				3CB5CA59182BDEA900D918D0 /* icon120.png in Resources */,
 				FA4224AE1795834A000B3B73 /* box_26@2x.png in Resources */,
 				FA4224AF1795834A000B3B73 /* box_27@2x.png in Resources */,
 				FA4224B01795834A000B3B73 /* box_28@2x.png in Resources */,
@@ -3498,6 +3745,7 @@
 				FA4224E81795834A000B3B73 /* 30_bundle_24@2x.png in Resources */,
 				FA4224E91795834A000B3B73 /* 30_bundle_25@2x.png in Resources */,
 				FA4224EA1795834A000B3B73 /* 30_bundle_26@2x.png in Resources */,
+				3CB5CA5D182BDFC100D918D0 /* icon80.png in Resources */,
 				FA4224EB1795834A000B3B73 /* 30_bundle_27@2x.png in Resources */,
 				FA4224EC1795834A000B3B73 /* 30_bundle_28@2x.png in Resources */,
 				FA4224ED1795834A000B3B73 /* 30_bundle_29@2x.png in Resources */,
@@ -3512,6 +3760,7 @@
 				FA4224F61795834A000B3B73 /* 30_bundle_9@2x.png in Resources */,
 				FA4224F71795834A000B3B73 /* bundle_10@2x.png in Resources */,
 				FA4224F81795834A000B3B73 /* bundle_11@2x.png in Resources */,
+				3CB5CA8D182BE69000D918D0 /* arrowLeft.png in Resources */,
 				FA4224F91795834A000B3B73 /* bundle_12@2x.png in Resources */,
 				FA4224FA1795834A000B3B73 /* bundle_13@2x.png in Resources */,
 				FA4224FB1795834A000B3B73 /* bundle_14@2x.png in Resources */,
@@ -3532,6 +3781,7 @@
 				FA42250A1795834A000B3B73 /* bundle_9@2x.png in Resources */,
 				FA42250B1795834A000B3B73 /* ipad_30_bundle_10@2x.png in Resources */,
 				FA42250C1795834A000B3B73 /* ipad_30_bundle_11@2x.png in Resources */,
+				3CB5CA4A182BDD8700D918D0 /* Icon-Small-20@2x.png in Resources */,
 				FA42250D1795834A000B3B73 /* ipad_30_bundle_12@2x.png in Resources */,
 				FA42250E1795834A000B3B73 /* ipad_30_bundle_13@2x.png in Resources */,
 				FA42250F1795834A000B3B73 /* ipad_30_bundle_14@2x.png in Resources */,
@@ -3540,6 +3790,7 @@
 				FA4225121795834A000B3B73 /* ipad_30_bundle_17@2x.png in Resources */,
 				FA4225131795834A000B3B73 /* ipad_30_bundle_18@2x.png in Resources */,
 				FA4225141795834A000B3B73 /* ipad_30_bundle_19@2x.png in Resources */,
+				3CB5CA9E182BF79500D918D0 /* bonusButton.png in Resources */,
 				FA4225151795834A000B3B73 /* ipad_30_bundle_1@2x.png in Resources */,
 				FA4225161795834A000B3B73 /* ipad_30_bundle_20@2x.png in Resources */,
 				FA4225171795834A000B3B73 /* ipad_30_bundle_21@2x.png in Resources */,
@@ -3578,18 +3829,21 @@
 				FA4225381795834A000B3B73 /* ipad_bundle_5@2x.png in Resources */,
 				FA4225391795834A000B3B73 /* ipad_bundle_6@2x.png in Resources */,
 				FA42253A1795834A000B3B73 /* ipad_bundle_7@2x.png in Resources */,
+				3CB5CA5E182BDFC100D918D0 /* icon40.png in Resources */,
 				FA42253B1795834A000B3B73 /* ipad_bundle_8@2x.png in Resources */,
 				FA42253C1795834A000B3B73 /* ipad_bundle_9@2x.png in Resources */,
 				FA42253D1795834A000B3B73 /* buttonAutoSpin@2x.png in Resources */,
 				FA42253E1795834A000B3B73 /* buttonClose.png in Resources */,
 				FA42253F1795834A000B3B73 /* buttonClose@2x.png in Resources */,
 				FA4225401795834A000B3B73 /* buttonOptionBlue@2x.png in Resources */,
+				3CB5CA9B182BF00800D918D0 /* sweetFieldsCard-Locked.png in Resources */,
 				FA4225411795834A000B3B73 /* buttonOptionGreen@2x.png in Resources */,
 				FA4225421795834A000B3B73 /* buttonOptionGreen_Blank@2x.png in Resources */,
 				FA4225431795834A000B3B73 /* buttonOptionRed.png in Resources */,
 				FA4225441795834A000B3B73 /* buttonoptionyellow@2x.png in Resources */,
 				FA4225451795834A000B3B73 /* buttonPayTable@2x.png in Resources */,
 				FA4225461795834A000B3B73 /* buttonSpin@2x.png in Resources */,
+				3CB5CA4F182BDD8700D918D0 /* Icon-Small.png in Resources */,
 				FA4225471795834A000B3B73 /* buttonValue@2x.png in Resources */,
 				FA4225481795834A000B3B73 /* buycoins.png in Resources */,
 				FA4225491795834A000B3B73 /* buycoins@2x.png in Resources */,
@@ -3614,6 +3868,7 @@
 				FA42255C1795834A000B3B73 /* coins_1_icon@2x.png in Resources */,
 				FA42255D1795834A000B3B73 /* coins_2.png in Resources */,
 				FA42255E1795834A000B3B73 /* coins_2_icon.png in Resources */,
+				3CB5CA95182BEB3700D918D0 /* topBar.png in Resources */,
 				FA42255F1795834A000B3B73 /* coins_2_icon@2x.png in Resources */,
 				FA4225601795834A000B3B73 /* coins_3.png in Resources */,
 				FA4225611795834A000B3B73 /* coins_3_icon.png in Resources */,
@@ -3628,6 +3883,7 @@
 				FA42256A1795834A000B3B73 /* coins_6_icon.png in Resources */,
 				FA42256B1795834A000B3B73 /* coins_6_icon@2x.png in Resources */,
 				FA42256C1795834A000B3B73 /* coins_area@2x.png in Resources */,
+				3CB5CA83182BE09400D918D0 /* Ubuntu-L.ttf in Resources */,
 				FA42256E1795834A000B3B73 /* ipad_coin.png in Resources */,
 				FA42256F1795834A000B3B73 /* ipad_coin@2x.png in Resources */,
 				FA4225701795834A000B3B73 /* ipad_coin_behind@2x.png in Resources */,
@@ -3645,13 +3901,16 @@
 				FA42257C1795834A000B3B73 /* ipad_design_x10@2x.png in Resources */,
 				FA42257D1795834A000B3B73 /* ipad_design_x2@2x.png in Resources */,
 				FA42257E1795834A000B3B73 /* ipad_design_x5@2x.png in Resources */,
+				3CB5CA45182BDD8700D918D0 /* apple-touch-icon-72x72-precomposed.png in Resources */,
 				FA42257F1795834A000B3B73 /* ipad_design_xnowin@2x.png in Resources */,
 				FA4225801795834A000B3B73 /* diamond.png in Resources */,
 				FA4225811795834A000B3B73 /* displayBuyCoins.png in Resources */,
 				FA4225821795834A000B3B73 /* displayBuyCoins@2x.png in Resources */,
+				3CB5CAA0182BFC0300D918D0 /* buyCoinsLobby.png in Resources */,
 				FA4225831795834A000B3B73 /* displayCoins.png in Resources */,
 				FA4225841795834A000B3B73 /* displayCoins@2x.png in Resources */,
 				FA4225851795834A000B3B73 /* displayFacebook.png in Resources */,
+				3CB5CA46182BDD8700D918D0 /* apple-touch-icon-precomposed.png in Resources */,
 				FA4225861795834A000B3B73 /* displayFacebook@2x.png in Resources */,
 				FA4225871795834A000B3B73 /* displayinfo.png in Resources */,
 				FA4225881795834A000B3B73 /* displayinfo@2x.png in Resources */,
@@ -3659,6 +3918,7 @@
 				FA42258A1795834A000B3B73 /* down@2x.png in Resources */,
 				FA42258B1795834A000B3B73 /* downloadview_small.png in Resources */,
 				FA42258C1795834A000B3B73 /* downloadview_small@2x.png in Resources */,
+				3CB5CA4E182BDD8700D918D0 /* Icon-Small-50@2x.png in Resources */,
 				FA42258D1795834A000B3B73 /* feature_overlay.png in Resources */,
 				FA42258E1795834A000B3B73 /* feature_overlay@2x.png in Resources */,
 				FA42258F1795834A000B3B73 /* digital.ttf in Resources */,
@@ -3666,10 +3926,6 @@
 				FA4225911795834A000B3B73 /* FUTRFW.TTF in Resources */,
 				FA4225D71795834A000B3B73 /* home.png in Resources */,
 				FA4225D81795834A000B3B73 /* home@2x.png in Resources */,
-				FA4225EE1795834A000B3B73 /* icon-ipad.png in Resources */,
-				FA4225EF1795834A000B3B73 /* icon-ipad@2x.png in Resources */,
-				FA4225F01795834A000B3B73 /* icon.png in Resources */,
-				FA4225F11795834A000B3B73 /* icon@2x.png in Resources */,
 				FA4225F21795834A000B3B73 /* ipad_chest.png in Resources */,
 				FA4225F31795834A000B3B73 /* ipad_chest@2x.png in Resources */,
 				FA4225F41795834A000B3B73 /* ipad_chest_open.png in Resources */,
@@ -3682,14 +3938,17 @@
 				FA4225FC1795834A000B3B73 /* ipad_bonus_wintext@2x.png in Resources */,
 				FA4225FD1795834A000B3B73 /* ipad_btn_autospin@2x.png in Resources */,
 				FA4225FE1795834A000B3B73 /* ipad_btn_bet@2x.png in Resources */,
+				3CB5CA86182BE09400D918D0 /* Ubuntu-MI.ttf in Resources */,
 				FA4225FF1795834A000B3B73 /* ipad_btn_maxbet@2x.png in Resources */,
 				FA4226001795834A000B3B73 /* ipad_btn_paytable@2x.png in Resources */,
 				FA4226011795834A000B3B73 /* ipad_btn_spin@2x.png in Resources */,
 				FA4226021795834A000B3B73 /* ipad_btn_won@2x.png in Resources */,
 				FA4226031795834A000B3B73 /* ipad_feature_overlay.png in Resources */,
+				3CB5CA7F182BE09400D918D0 /* Trocchi.otf in Resources */,
 				FA4226041795834A000B3B73 /* ipad_feature_overlay@2x.png in Resources */,
 				FA4226051795834A000B3B73 /* ipad_home@2x.png in Resources */,
 				FA4226061795834A000B3B73 /* ipad_line_cover@2x.png in Resources */,
+				3CB5CA79182BE09400D918D0 /* Coda-Heavy.ttf in Resources */,
 				FA4226071795834A000B3B73 /* ipad_logo@2x.png in Resources */,
 				FA4226081795834A000B3B73 /* ipad_sound_off@2x.png in Resources */,
 				FA4226091795834A000B3B73 /* ipad_sound_on@2x.png in Resources */,
@@ -3736,6 +3995,7 @@
 				FA42265B1795834A000B3B73 /* ipad_line_button_11@2x.png in Resources */,
 				FA42265C1795834A000B3B73 /* ipad_line_button_12@2x.png in Resources */,
 				FA42265D1795834A000B3B73 /* ipad_line_button_13@2x.png in Resources */,
+				3CB5CA7B182BE09400D918D0 /* HennyPenny-Regular.otf in Resources */,
 				FA42265E1795834A000B3B73 /* ipad_line_button_14@2x.png in Resources */,
 				FA42265F1795834A000B3B73 /* ipad_line_button_15@2x.png in Resources */,
 				FA4226601795834A000B3B73 /* ipad_line_button_16@2x.png in Resources */,
@@ -3745,8 +4005,11 @@
 				FA4226641795834A000B3B73 /* ipad_line_button_1@2x.png in Resources */,
 				FA4226651795834A000B3B73 /* ipad_line_button_20@2x.png in Resources */,
 				FA4226661795834A000B3B73 /* ipad_line_button_21@2x.png in Resources */,
+				3CB5CA7C182BE09400D918D0 /* NewRocker-Regular.otf in Resources */,
 				FA4226671795834A000B3B73 /* ipad_line_button_22@2x.png in Resources */,
+				3CB5CA47182BDD8700D918D0 /* Icon-72.png in Resources */,
 				FA4226681795834A000B3B73 /* ipad_line_button_23@2x.png in Resources */,
+				3CB5CA51182BDD8700D918D0 /* Icon.png in Resources */,
 				FA4226691795834A000B3B73 /* ipad_line_button_24@2x.png in Resources */,
 				FA42266A1795834A000B3B73 /* ipad_line_button_25@2x.png in Resources */,
 				FA42266B1795834A000B3B73 /* ipad_line_button_26@2x.png in Resources */,
@@ -3755,6 +4018,7 @@
 				FA42266E1795834A000B3B73 /* ipad_line_button_29@2x.png in Resources */,
 				FA42266F1795834A000B3B73 /* ipad_line_button_2@2x.png in Resources */,
 				FA4226701795834A000B3B73 /* ipad_line_button_30@2x.png in Resources */,
+				3CB5CA87182BE09400D918D0 /* Ubuntu-R.ttf in Resources */,
 				FA4226711795834A000B3B73 /* ipad_line_button_3@2x.png in Resources */,
 				FA4226721795834A000B3B73 /* ipad_line_button_4@2x.png in Resources */,
 				FA4226731795834A000B3B73 /* ipad_line_button_5@2x.png in Resources */,
@@ -3784,8 +4048,12 @@
 				FA42268B1795834A000B3B73 /* line_button_26@2x.png in Resources */,
 				FA42268C1795834A000B3B73 /* line_button_27@2x.png in Resources */,
 				FA42268D1795834A000B3B73 /* line_button_28@2x.png in Resources */,
+				3CB5CA4D182BDD8700D918D0 /* Icon-Small-50.png in Resources */,
 				FA42268E1795834A000B3B73 /* line_button_29@2x.png in Resources */,
+				3CB5CA49182BDD8700D918D0 /* Icon-Small-20.png in Resources */,
 				FA42268F1795834A000B3B73 /* line_button_2@2x.png in Resources */,
+				3CB5CA7A182BE09400D918D0 /* GrandHotel-Regular.otf in Resources */,
+				3CB5CA48182BDD8700D918D0 /* Icon-72@2x.png in Resources */,
 				FA4226901795834A000B3B73 /* line_button_30@2x.png in Resources */,
 				FA4226911795834A000B3B73 /* line_button_3@2x.png in Resources */,
 				FA4226921795834A000B3B73 /* line_button_4@2x.png in Resources */,
@@ -3849,6 +4117,7 @@
 				FA4226CC1795834A000B3B73 /* ipad_30_line29@2x.png in Resources */,
 				FA4226CD1795834A000B3B73 /* ipad_30_line2@2x.png in Resources */,
 				FA4226CE1795834A000B3B73 /* ipad_30_line30@2x.png in Resources */,
+				3CB5CA89182BE09400D918D0 /* UbuntuTitling-Bold.ttf in Resources */,
 				FA4226CF1795834A000B3B73 /* ipad_30_line3@2x.png in Resources */,
 				FA4226D01795834A000B3B73 /* ipad_30_line4@2x.png in Resources */,
 				FA4226D11795834A000B3B73 /* ipad_30_line5@2x.png in Resources */,
@@ -3859,6 +4128,7 @@
 				FA4226D61795834A000B3B73 /* ipad_line10@2x.png in Resources */,
 				FA4226D71795834A000B3B73 /* ipad_line11@2x.png in Resources */,
 				FA4226D81795834A000B3B73 /* ipad_line12@2x.png in Resources */,
+				3CB5CA44182BDD8700D918D0 /* apple-touch-icon-144x144-precomposed.png in Resources */,
 				FA4226D91795834A000B3B73 /* ipad_line13@2x.png in Resources */,
 				FA4226DA1795834A000B3B73 /* ipad_line14@2x.png in Resources */,
 				FA4226DB1795834A000B3B73 /* ipad_line15@2x.png in Resources */,
@@ -3877,6 +4147,7 @@
 				FA4226E81795834A000B3B73 /* ipad_line8@2x.png in Resources */,
 				FA4226E91795834A000B3B73 /* ipad_line9@2x.png in Resources */,
 				FA4226EA1795834A000B3B73 /* line10@2x.png in Resources */,
+				3CB5CA5A182BDEA900D918D0 /* icon152.png in Resources */,
 				FA4226EB1795834A000B3B73 /* line11@2x.png in Resources */,
 				FA4226EC1795834A000B3B73 /* line12@2x.png in Resources */,
 				FA4226ED1795834A000B3B73 /* line13@2x.png in Resources */,
@@ -3886,7 +4157,9 @@
 				FA4226F11795834A000B3B73 /* line17@2x.png in Resources */,
 				FA4226F21795834A000B3B73 /* line18@2x.png in Resources */,
 				FA4226F31795834A000B3B73 /* line19@2x.png in Resources */,
+				3CB5CA90182BE6A200D918D0 /* kingMain.png in Resources */,
 				FA4226F41795834A000B3B73 /* line1@2x.png in Resources */,
+				3CB5CA9A182BF00800D918D0 /* rockyLandsCard-Locked.png in Resources */,
 				FA4226F51795834A000B3B73 /* line20@2x.png in Resources */,
 				FA4226F61795834A000B3B73 /* line2@2x.png in Resources */,
 				FA4226F71795834A000B3B73 /* line3@2x.png in Resources */,
@@ -3910,6 +4183,7 @@
 				FA42271D1795834A000B3B73 /* ipad_menu_top.png in Resources */,
 				FA42271E1795834A000B3B73 /* ipad_menu_top@2x.png in Resources */,
 				FA42271F1795834A000B3B73 /* menu_autospin@2x.png in Resources */,
+				3CB5CA99182BF00800D918D0 /* candiedCreekCard-Locked.png in Resources */,
 				FA4227201795834A000B3B73 /* menu_bottom.png in Resources */,
 				FA4227211795834A000B3B73 /* menu_bottom@2x.png in Resources */,
 				FA4227221795834A000B3B73 /* menu_bottom_dealicon@2x.png in Resources */,
@@ -3923,17 +4197,20 @@
 				FA42272A1795834A000B3B73 /* menu_connect_facebook@2x.png in Resources */,
 				FA42272B1795834A000B3B73 /* menu_top.png in Resources */,
 				FA42272C1795834A000B3B73 /* menu_top@2x.png in Resources */,
+				3CB5CA85182BE09400D918D0 /* Ubuntu-M.ttf in Resources */,
 				FA42272D1795834A000B3B73 /* ipad_move_coin.png in Resources */,
 				FA42272E1795834A000B3B73 /* ipad_move_coin@2x.png in Resources */,
 				FA42272F1795834A000B3B73 /* ipad_move_coin_left.png in Resources */,
 				FA4227301795834A000B3B73 /* ipad_move_coin_left@2x.png in Resources */,
 				FA4227311795834A000B3B73 /* ipad_move_coin_right.png in Resources */,
 				FA4227321795834A000B3B73 /* ipad_move_coin_right@2x.png in Resources */,
+				3CB5CA53182BDD8700D918D0 /* iTunesArtwork.png in Resources */,
 				FA4227331795834A000B3B73 /* move_coin.png in Resources */,
 				FA4227341795834A000B3B73 /* move_coin@2x.png in Resources */,
 				FA4227351795834A000B3B73 /* move_coin_left.png in Resources */,
 				FA4227361795834A000B3B73 /* move_coin_left@2x.png in Resources */,
 				FA4227371795834A000B3B73 /* move_coin_right.png in Resources */,
+				3CB5CA8C182BE69000D918D0 /* arrowRight.png in Resources */,
 				FA4227381795834A000B3B73 /* move_coin_right@2x.png in Resources */,
 				FA4227391795834A000B3B73 /* move_left.png in Resources */,
 				FA42273A1795834A000B3B73 /* move_left@2x.png in Resources */,
@@ -3964,6 +4241,7 @@
 				FA4227FA1795834B000B3B73 /* text_levelup@2x.png in Resources */,
 				FA4227FB1795834B000B3B73 /* text_morecoins.png in Resources */,
 				FA4227FC1795834B000B3B73 /* text_morecoins@2x.png in Resources */,
+				3CB5CA81182BE09400D918D0 /* Ubuntu-BI.ttf in Resources */,
 				FA4227FD1795834B000B3B73 /* text_paytable.png in Resources */,
 				FA4227FE1795834B000B3B73 /* text_paytable@2x.png in Resources */,
 				FA4227FF1795834B000B3B73 /* text_plus1.png in Resources */,
@@ -4026,6 +4304,7 @@
 				FAD00EB717A941A5007186F1 /* ipad_bingoitem_Q@2x.png in Resources */,
 				FAD00EB817A941A5007186F1 /* ipad_bingoitem_Star@2x.png in Resources */,
 				FAD00EB917A941A5007186F1 /* ipad_bingoitem_Wild@2x.png in Resources */,
+				3CB5CA52182BDD8700D918D0 /* Icon@2x.png in Resources */,
 				FAD00EBA17A941A5007186F1 /* game10@2x.png in Resources */,
 				FAD00EBB17A941A5007186F1 /* game10_locked@2x.png in Resources */,
 				FAD00EBC17A941A5007186F1 /* game11@2x.png in Resources */,
@@ -4035,9 +4314,11 @@
 				FAD00EC017A941A5007186F1 /* game1@2x.png in Resources */,
 				FAD00EC117A941A5007186F1 /* game2@2x.png in Resources */,
 				FAD00EC217A941A5007186F1 /* game3@2x.png in Resources */,
+				3CB5CA82182BE09400D918D0 /* Ubuntu-C.ttf in Resources */,
 				FAD00EC317A941A5007186F1 /* game3_locked@2x.png in Resources */,
 				FAD00EC417A941A5007186F1 /* game4@2x.png in Resources */,
 				FAD00EC517A941A5007186F1 /* game4_locked@2x.png in Resources */,
+				3CB5CA43182BDD8700D918D0 /* apple-touch-icon-114x114-precomposed.png in Resources */,
 				FAD00EC617A941A5007186F1 /* game5@2x.png in Resources */,
 				FAD00EC717A941A5007186F1 /* game5_locked@2x.png in Resources */,
 				FAD00EC817A941A5007186F1 /* game6@2x.png in Resources */,
@@ -4047,6 +4328,7 @@
 				FAD00ECC17A941A5007186F1 /* game8@2x.png in Resources */,
 				FAD00ECD17A941A5007186F1 /* game8_locked@2x.png in Resources */,
 				FAD00ECE17A941A5007186F1 /* game9@2x.png in Resources */,
+				3CB5CA7E182BE09400D918D0 /* Trocchi-Bold.otf in Resources */,
 				FAD00ECF17A941A5007186F1 /* game9_locked@2x.png in Resources */,
 				FAD00ED017A941A5007186F1 /* game_comingsoon@2x.png in Resources */,
 				FAD00ED117A941A5007186F1 /* game_overlay.png in Resources */,
@@ -4055,6 +4337,7 @@
 				FAD00ED417A941A5007186F1 /* ipad_game10_locked@2x.png in Resources */,
 				FAD00ED517A941A5007186F1 /* ipad_game11@2x.png in Resources */,
 				FAD00ED617A941A5007186F1 /* ipad_game11_locked@2x.png in Resources */,
+				3CB5CA54182BDD8700D918D0 /* iTunesArtwork@2x.png in Resources */,
 				FAD00ED717A941A5007186F1 /* ipad_game12@2x.png in Resources */,
 				FAD00ED817A941A5007186F1 /* ipad_game12_locked@2x.png in Resources */,
 				FAD00ED917A941A5007186F1 /* ipad_game1@2x.png in Resources */,
@@ -4072,6 +4355,8 @@
 				FAD00EE517A941A5007186F1 /* ipad_game8@2x.png in Resources */,
 				FAD00EE617A941A5007186F1 /* ipad_game8_locked@2x.png in Resources */,
 				FAD00EE717A941A5007186F1 /* ipad_game9@2x.png in Resources */,
+				3CB5CA7D182BE09400D918D0 /* SpicyRice-Regular.otf in Resources */,
+				3CB5CA94182BEB3700D918D0 /* lollyPopCard.png in Resources */,
 				FAD00EE817A941A5007186F1 /* ipad_game9_locked@2x.png in Resources */,
 				FAD00EE917A941A5007186F1 /* ipad_game_comingsoon@2x.png in Resources */,
 				FAD00EEA17A941A5007186F1 /* ipad_game_overlay@2x.png in Resources */,
@@ -4082,6 +4367,7 @@
 				FAD00EEF17A941A5007186F1 /* gemsitem_J@2x.png in Resources */,
 				FAD00EF017A941A5007186F1 /* gemsitem_K@2x.png in Resources */,
 				FAD00EF117A941A5007186F1 /* gemsitem_Lemon@2x.png in Resources */,
+				3CB5CA84182BE09400D918D0 /* Ubuntu-LI.ttf in Resources */,
 				FAD00EF217A941A5007186F1 /* gemsitem_Q@2x.png in Resources */,
 				FAD00EF317A941A5007186F1 /* gemsitem_Star@2x.png in Resources */,
 				FAD00EF417A941A5007186F1 /* gemsitem_Wild@2x.png in Resources */,
@@ -4100,6 +4386,7 @@
 				FAD00F0117A941A5007186F1 /* horseitem_Bonus@2x.png in Resources */,
 				FAD00F0217A941A5007186F1 /* horseitem_Diamond@2x.png in Resources */,
 				FAD00F0317A941A5007186F1 /* horseitem_J@2x.png in Resources */,
+				3CB5CA50182BDD8700D918D0 /* Icon-Small@2x.png in Resources */,
 				FAD00F0417A941A5007186F1 /* horseitem_K@2x.png in Resources */,
 				FAD00F0517A941A5007186F1 /* horseitem_Lemon@2x.png in Resources */,
 				FAD00F0617A941A5007186F1 /* horseitem_Q@2x.png in Resources */,
@@ -4189,6 +4476,7 @@
 				FAD00F5A17A941A5007186F1 /* snacksitem_A@2x.png in Resources */,
 				FAD00F5B17A941A5007186F1 /* snacksitem_Bonus@2x.png in Resources */,
 				FAD00F5C17A941A5007186F1 /* snacksitem_Diamond@2x.png in Resources */,
+				3CB5CAA2182BFDB400D918D0 /* bottomBar.png in Resources */,
 				FAD00F5D17A941A5007186F1 /* snacksitem_J@2x.png in Resources */,
 				FAD00F5E17A941A5007186F1 /* snacksitem_K@2x.png in Resources */,
 				FAD00F5F17A941A5007186F1 /* snacksitem_Lemon@2x.png in Resources */,
@@ -4216,12 +4504,15 @@
 				FAD00F7517A941A5007186F1 /* sportsitem_Star@2x.png in Resources */,
 				FAD00F7617A941A5007186F1 /* sportsitem_Wild@2x.png in Resources */,
 				FAD00F7717A941A5007186F1 /* ipad_zooitem_7@2x.png in Resources */,
+				3CB5CAA4182BFDF500D918D0 /* candyLobbyBackground.png in Resources */,
 				FAD00F7817A941A5007186F1 /* ipad_zooitem_A@2x.png in Resources */,
 				FAD00F7917A941A5007186F1 /* ipad_zooitem_Bonus@2x.png in Resources */,
+				3CB5CA4C182BDD8700D918D0 /* Icon-Small-30@2x.png in Resources */,
 				FAD00F7A17A941A5007186F1 /* ipad_zooitem_Diamond@2x.png in Resources */,
 				FAD00F7B17A941A5007186F1 /* ipad_zooitem_J@2x.png in Resources */,
 				FAD00F7C17A941A5007186F1 /* ipad_zooitem_K@2x.png in Resources */,
 				FAD00F7D17A941A5007186F1 /* ipad_zooitem_Lemon@2x.png in Resources */,
+				3CB5CA80182BE09400D918D0 /* Ubuntu-B.ttf in Resources */,
 				FAD00F7E17A941A5007186F1 /* ipad_zooitem_Q@2x.png in Resources */,
 				FAD00F7F17A941A5007186F1 /* ipad_zooitem_Star@2x.png in Resources */,
 				FAD00F8017A941A5007186F1 /* ipad_zooitem_Wild@2x.png in Resources */,
@@ -4420,9 +4711,9 @@
 					"\"$(SRCROOT)/SimpleSlots/lib\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleSlots/PartySlots-Prefix.pch";
+				GCC_PREFIX_HEADER = "SimpleSlots/Candy Land Slots-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "SimpleSlots/PartySlots-Info.plist";
+				INFOPLIST_FILE = "SimpleSlots/Candy Land Slots-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4439,7 +4730,7 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = PartySlots;
+				PRODUCT_NAME = "Candy Land Slots";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4458,9 +4749,9 @@
 					"\"$(SRCROOT)/SimpleSlots/lib\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleSlots/PartySlots-Prefix.pch";
+				GCC_PREFIX_HEADER = "SimpleSlots/Candy Land Slots-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "SimpleSlots/PartySlots-Info.plist";
+				INFOPLIST_FILE = "SimpleSlots/Candy Land Slots-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4477,7 +4768,7 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = PartySlots;
+				PRODUCT_NAME = "Candy Land Slots";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4488,7 +4779,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07573F4B15B4D35B00E5B7FE /* Build configuration list for PBXProject "PartySlots" */ = {
+		07573F4B15B4D35B00E5B7FE /* Build configuration list for PBXProject "Candy Land Slots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07573F6D15B4D35C00E5B7FE /* Debug */,
@@ -4497,7 +4788,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07573F6F15B4D35C00E5B7FE /* Build configuration list for PBXNativeTarget "PartySlots" */ = {
+		07573F6F15B4D35C00E5B7FE /* Build configuration list for PBXNativeTarget "Candy Land Slots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07573F7015B4D35C00E5B7FE /* Debug */,

@@ -14,7 +14,7 @@
 #define INITIAL_STARTUP_COINS @"3000"
 #define INITIAL_STARTUP_BET @"200"
 #define INITIAL_LINES_COUNT @"20"
-#define LABEL_WELCOME @"Welcome to Party Slots!"
+#define LABEL_WELCOME @"Welcome to CandyLand Slots!"
 #define LABEL_TAPPLAY @"Tap Spin to Play"
 
 #define DELAY_FOR_AUTO_SPIN 7
