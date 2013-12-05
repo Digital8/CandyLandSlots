@@ -445,7 +445,7 @@ NSString *error;
 	
 	[responseData appendData:data];
     
-    NSString *a = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    NSString *a = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
     
     ////NSLog(@"Data: %@", a);
 	
@@ -459,7 +459,7 @@ NSString *error;
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    NSString *responseString = [[[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding] autorelease];
     //////NSLog(responseString);
     
     NSString *gKey = [CommonUtilities decryptString:@"b"];
@@ -485,7 +485,7 @@ NSString *error;
         [alert release];
     }
     
-    [self dismissModalViewControllerAnimated: YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 
     [UIView setAnimationDuration:0.5];
     [UIView setAnimationDelegate:self];

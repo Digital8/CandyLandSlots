@@ -99,7 +99,7 @@ static char base64EncodingTable[64] = {
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     NSData *inputData = [prefs objectForKey:objectname];
     if (!inputData) return NULL;
-    return [[NSString alloc] initWithData:[inputData AES256DecryptWithKey:@"b0077cf1a24a26fe529ffd2b0c325bd2"] encoding:NSUTF8StringEncoding];
+    return [[[NSString alloc] initWithData:[inputData AES256DecryptWithKey:@"b0077cf1a24a26fe529ffd2b0c325bd2"] encoding:NSUTF8StringEncoding] autorelease];
 }
 
 +(NSString*) base64Encrypt:(NSString *)data :(NSString *)key{
@@ -109,7 +109,7 @@ static char base64EncodingTable[64] = {
 
 +(NSString*) base64Decrypt:(NSString *)data :(NSString *)key{
     NSData *cipherData = [data base64DecodedData];
-    return [[NSString alloc] initWithData:[cipherData AES256DecryptWithKey:key] encoding:NSUTF8StringEncoding];
+    return [[[NSString alloc] initWithData:[cipherData AES256DecryptWithKey:key] encoding:NSUTF8StringEncoding] autorelease];
 }
 
 

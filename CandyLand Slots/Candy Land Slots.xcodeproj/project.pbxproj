@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AA71EF184FFDDC00DC7C38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05AA71EE184FFDDC00DC7C38 /* Default-568h@2x.png */; };
 		070BAE8C16A253C200DF7333 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070BAE8B16A253C200DF7333 /* MessageUI.framework */; };
 		070D970915CAF0CA0083C5FB /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 070D970815CAF0BC0083C5FB /* GameCenterManager.m */; };
 		070D970B15CAF1020083C5FB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D970A15CAF1010083C5FB /* GameKit.framework */; };
@@ -968,6 +969,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05AA71EE184FFDDC00DC7C38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		070BAE8B16A253C200DF7333 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		070BAE8D16A253F200DF7333 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		070D970715CAF0BC0083C5FB /* GameCenterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
@@ -2065,6 +2067,7 @@
 		07573F4615B4D35B00E5B7FE = {
 			isa = PBXGroup;
 			children = (
+				05AA71EE184FFDDC00DC7C38 /* Default-568h@2x.png */,
 				07573F5B15B4D35B00E5B7FE /* SimpleSlots */,
 				07573F5415B4D35B00E5B7FE /* Frameworks */,
 			);
@@ -2076,12 +2079,12 @@
 				07573F5115B4D35B00E5B7FE /* Candy Land Slots.app */,
 			);
 			name = Products;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		07573F5415B4D35B00E5B7FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07573F5215B4D35B00E5B7FE /* Products */,
 				FA943C6C1796E8F7003DB869 /* Utilities */,
 				FA1C595A179D8592000439BC /* JSON */,
 				FA421EFE17954857000B3B73 /* ObjectAL */,
@@ -2121,7 +2124,6 @@
 		07573F5B15B4D35B00E5B7FE /* SimpleSlots */ = {
 			isa = PBXGroup;
 			children = (
-				07573F5215B4D35B00E5B7FE /* Products */,
 				FA287BEA179D1BE3005BA9D7 /* Configure.h */,
 				07573F6415B4D35C00E5B7FE /* AppDelegate.h */,
 				07573F6515B4D35C00E5B7FE /* AppDelegate.m */,
@@ -3642,7 +3644,7 @@
 		07573F4815B4D35B00E5B7FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = 07573F4B15B4D35B00E5B7FE /* Build configuration list for PBXProject "Candy Land Slots" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -4146,6 +4148,7 @@
 				FA4226E71795834A000B3B73 /* ipad_line7@2x.png in Resources */,
 				FA4226E81795834A000B3B73 /* ipad_line8@2x.png in Resources */,
 				FA4226E91795834A000B3B73 /* ipad_line9@2x.png in Resources */,
+				05AA71EF184FFDDC00DC7C38 /* Default-568h@2x.png in Resources */,
 				FA4226EA1795834A000B3B73 /* line10@2x.png in Resources */,
 				3CB5CA5A182BDEA900D918D0 /* icon152.png in Resources */,
 				FA4226EB1795834A000B3B73 /* line11@2x.png in Resources */,
@@ -4642,11 +4645,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD_32_BIT)",
-					armv6,
-				);
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4662,11 +4663,14 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -4675,11 +4679,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD_32_BIT)",
-					armv6,
-				);
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4688,8 +4690,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = NO;

@@ -90,7 +90,7 @@
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
 	[responseData appendData:data];
 #ifdef DEBUG
-    NSString *a = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    NSString *a = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
     
     NSLog(@"Data: %@", a);
 #endif

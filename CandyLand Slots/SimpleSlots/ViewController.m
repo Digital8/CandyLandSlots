@@ -190,7 +190,7 @@
 }
 
 -(IBAction)downloadNow:(id)sender{
-    NSURL *url = [[NSURL alloc] initWithString:DOWNLOAD_NOW_URL];
+    NSURL *url = [[[NSURL alloc] initWithString:DOWNLOAD_NOW_URL] autorelease];
     [[UIApplication sharedApplication] openURL:url];
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:0.5];
@@ -198,7 +198,9 @@
     //viewBack.alpha = 0.0;
     [UIView commitAnimations];
 }
-
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 -(IBAction)downloadCancel:(id)sender{
     [UIView setAnimationDuration:0.5];
     viewDownload.alpha = 0.0;

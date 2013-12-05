@@ -3207,7 +3207,7 @@
     }
 
     int random = arc4random() % [tmpObject count];
-    NSString *randomValue = [tmpObject objectAtIndex:random];
+    NSString *randomValue = [[tmpObject autorelease] objectAtIndex:random];
     
     return [randomValue intValue];
 }
@@ -3226,7 +3226,7 @@
     }
     
     int random = arc4random() % [tmpObject count];
-    NSString *randomValue = [tmpObject objectAtIndex:random];
+    NSString *randomValue = [[tmpObject autorelease] objectAtIndex:random];
     
     return [randomValue intValue];
 }
@@ -3245,7 +3245,7 @@
     }
     
     int random = arc4random() % [tmpObject count];
-    NSString *randomValue = [tmpObject objectAtIndex:random];
+    NSString *randomValue = [[tmpObject autorelease] objectAtIndex:random];
     
     return [randomValue intValue];
 }
@@ -3264,7 +3264,7 @@
     }
     
     int random = arc4random() % [tmpObject count];
-    NSString *randomValue = [tmpObject objectAtIndex:random];
+    NSString *randomValue = [[tmpObject autorelease] objectAtIndex:random];
     
     return [randomValue intValue];
 }
@@ -3283,7 +3283,7 @@
     }
     
     int random = arc4random() % [tmpObject count];
-    NSString *randomValue = [tmpObject objectAtIndex:random];
+    NSString *randomValue = [[tmpObject autorelease] objectAtIndex:random];
     
     return [randomValue intValue];
 }
@@ -4235,6 +4235,9 @@
 }
 
 - (IBAction)spinWheel:(id)sender{
+    
+    NSLog(@"spinnnn");
+    
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:0.5];
     viewPrize.alpha = 0.0;
