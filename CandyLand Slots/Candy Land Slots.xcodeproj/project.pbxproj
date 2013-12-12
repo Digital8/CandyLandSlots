@@ -106,6 +106,35 @@
 		3CB5CAA0182BFC0300D918D0 /* buyCoinsLobby.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CA9F182BFC0300D918D0 /* buyCoinsLobby.png */; };
 		3CB5CAA2182BFDB400D918D0 /* bottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CAA1182BFDB400D918D0 /* bottomBar.png */; };
 		3CB5CAA4182BFDF500D918D0 /* candyLobbyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5CAA3182BFDF500D918D0 /* candyLobbyBackground.png */; };
+		3CDA080F1859D5AE003CCB1F /* gummyGroveSlotsBacking.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA080E1859D5AE003CCB1F /* gummyGroveSlotsBacking.png */; };
+		3CDA08131859D63F003CCB1F /* topButtonBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08121859D63F003CCB1F /* topButtonBar.png */; };
+		3CDA08171859D6F0003CCB1F /* GummyGroceSlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA08151859D6F0003CCB1F /* GummyGroceSlotsViewController.m */; };
+		3CDA08181859D6F0003CCB1F /* GummyGroceSlotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08161859D6F0003CCB1F /* GummyGroceSlotsViewController.xib */; };
+		3CDA081D1859D933003CCB1F /* JellyBeanSlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA081B1859D933003CCB1F /* JellyBeanSlotViewController.m */; };
+		3CDA081E1859D933003CCB1F /* JellyBeanSlotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA081C1859D933003CCB1F /* JellyBeanSlotViewController.xib */; };
+		3CDA08221859D941003CCB1F /* JellyPoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA08201859D941003CCB1F /* JellyPoolViewController.m */; };
+		3CDA08231859D941003CCB1F /* JellyPoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08211859D941003CCB1F /* JellyPoolViewController.xib */; };
+		3CDA08271859D951003CCB1F /* JubeLandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA08251859D951003CCB1F /* JubeLandViewController.m */; };
+		3CDA08281859D951003CCB1F /* JubeLandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08261859D951003CCB1F /* JubeLandViewController.xib */; };
+		3CDA082C1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA082A1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.m */; };
+		3CDA082D1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA082B1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.xib */; };
+		3CDA08311859D978003CCB1F /* SweetFieldsSlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA082F1859D978003CCB1F /* SweetFieldsSlotsViewController.m */; };
+		3CDA08321859D978003CCB1F /* SweetFieldsSlotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08301859D978003CCB1F /* SweetFieldsSlotsViewController.xib */; };
+		3CDA08361859D984003CCB1F /* RockyLandsSlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA08341859D984003CCB1F /* RockyLandsSlotsViewController.m */; };
+		3CDA08371859D984003CCB1F /* RockyLandsSlotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08351859D984003CCB1F /* RockyLandsSlotsViewController.xib */; };
+		3CDA083B1859D98E003CCB1F /* CandiedCreekSlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA08391859D98E003CCB1F /* CandiedCreekSlotsViewController.m */; };
+		3CDA083C1859D98E003CCB1F /* CandiedCreekSlotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA083A1859D98E003CCB1F /* CandiedCreekSlotsViewController.xib */; };
+		3CDA084B1859DED2003CCB1F /* aGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08401859DED2003CCB1F /* aGummyTile.png */; };
+		3CDA084C1859DED2003CCB1F /* bonusGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08411859DED2003CCB1F /* bonusGummyTile.png */; };
+		3CDA084D1859DED2003CCB1F /* gardenGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08421859DED2003CCB1F /* gardenGummyTile.png */; };
+		3CDA084E1859DED2003CCB1F /* jGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08431859DED2003CCB1F /* jGummyTile.png */; };
+		3CDA084F1859DED2003CCB1F /* kGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08441859DED2003CCB1F /* kGummyTile.png */; };
+		3CDA08501859DED2003CCB1F /* qGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08451859DED2003CCB1F /* qGummyTile.png */; };
+		3CDA08511859DED2003CCB1F /* scatterGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08461859DED2003CCB1F /* scatterGummyTile.png */; };
+		3CDA08521859DED2003CCB1F /* tenGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08471859DED2003CCB1F /* tenGummyTile.png */; };
+		3CDA08531859DED2003CCB1F /* wateringGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08481859DED2003CCB1F /* wateringGummyTile.png */; };
+		3CDA08541859DED2003CCB1F /* wildGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA08491859DED2003CCB1F /* wildGummyTile.png */; };
+		3CDA08551859DED2003CCB1F /* windowGummyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDA084A1859DED2003CCB1F /* windowGummyTile.png */; };
 		CE81F59A1764979900AAC7E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81F5991764979900AAC7E4 /* CFNetwork.framework */; };
 		CE81F5F31764BA4300AAC7E4 /* libChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81F5F11764BA4300AAC7E4 /* libChartboost.a */; };
 		CE81F5F41764BA4300AAC7E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE81F5F21764BA4300AAC7E4 /* README.md */; };
@@ -1103,6 +1132,43 @@
 		3CB5CA9F182BFC0300D918D0 /* buyCoinsLobby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyCoinsLobby.png; sourceTree = "<group>"; };
 		3CB5CAA1182BFDB400D918D0 /* bottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomBar.png; sourceTree = "<group>"; };
 		3CB5CAA3182BFDF500D918D0 /* candyLobbyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candyLobbyBackground.png; sourceTree = "<group>"; };
+		3CDA080E1859D5AE003CCB1F /* gummyGroveSlotsBacking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gummyGroveSlotsBacking.png; sourceTree = "<group>"; };
+		3CDA08121859D63F003CCB1F /* topButtonBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topButtonBar.png; sourceTree = "<group>"; };
+		3CDA08141859D6F0003CCB1F /* GummyGroceSlotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GummyGroceSlotsViewController.h; sourceTree = "<group>"; };
+		3CDA08151859D6F0003CCB1F /* GummyGroceSlotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GummyGroceSlotsViewController.m; sourceTree = "<group>"; };
+		3CDA08161859D6F0003CCB1F /* GummyGroceSlotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GummyGroceSlotsViewController.xib; sourceTree = "<group>"; };
+		3CDA081A1859D933003CCB1F /* JellyBeanSlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JellyBeanSlotViewController.h; sourceTree = "<group>"; };
+		3CDA081B1859D933003CCB1F /* JellyBeanSlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JellyBeanSlotViewController.m; sourceTree = "<group>"; };
+		3CDA081C1859D933003CCB1F /* JellyBeanSlotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JellyBeanSlotViewController.xib; sourceTree = "<group>"; };
+		3CDA081F1859D941003CCB1F /* JellyPoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JellyPoolViewController.h; sourceTree = "<group>"; };
+		3CDA08201859D941003CCB1F /* JellyPoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JellyPoolViewController.m; sourceTree = "<group>"; };
+		3CDA08211859D941003CCB1F /* JellyPoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JellyPoolViewController.xib; sourceTree = "<group>"; };
+		3CDA08241859D951003CCB1F /* JubeLandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JubeLandViewController.h; sourceTree = "<group>"; };
+		3CDA08251859D951003CCB1F /* JubeLandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JubeLandViewController.m; sourceTree = "<group>"; };
+		3CDA08261859D951003CCB1F /* JubeLandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JubeLandViewController.xib; sourceTree = "<group>"; };
+		3CDA08291859D96D003CCB1F /* LolipopMeadowsSlotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LolipopMeadowsSlotsViewController.h; sourceTree = "<group>"; };
+		3CDA082A1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LolipopMeadowsSlotsViewController.m; sourceTree = "<group>"; };
+		3CDA082B1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LolipopMeadowsSlotsViewController.xib; sourceTree = "<group>"; };
+		3CDA082E1859D978003CCB1F /* SweetFieldsSlotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweetFieldsSlotsViewController.h; sourceTree = "<group>"; };
+		3CDA082F1859D978003CCB1F /* SweetFieldsSlotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweetFieldsSlotsViewController.m; sourceTree = "<group>"; };
+		3CDA08301859D978003CCB1F /* SweetFieldsSlotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SweetFieldsSlotsViewController.xib; sourceTree = "<group>"; };
+		3CDA08331859D984003CCB1F /* RockyLandsSlotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RockyLandsSlotsViewController.h; sourceTree = "<group>"; };
+		3CDA08341859D984003CCB1F /* RockyLandsSlotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RockyLandsSlotsViewController.m; sourceTree = "<group>"; };
+		3CDA08351859D984003CCB1F /* RockyLandsSlotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RockyLandsSlotsViewController.xib; sourceTree = "<group>"; };
+		3CDA08381859D98E003CCB1F /* CandiedCreekSlotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandiedCreekSlotsViewController.h; sourceTree = "<group>"; };
+		3CDA08391859D98E003CCB1F /* CandiedCreekSlotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandiedCreekSlotsViewController.m; sourceTree = "<group>"; };
+		3CDA083A1859D98E003CCB1F /* CandiedCreekSlotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandiedCreekSlotsViewController.xib; sourceTree = "<group>"; };
+		3CDA08401859DED2003CCB1F /* aGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aGummyTile.png; sourceTree = "<group>"; };
+		3CDA08411859DED2003CCB1F /* bonusGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonusGummyTile.png; sourceTree = "<group>"; };
+		3CDA08421859DED2003CCB1F /* gardenGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gardenGummyTile.png; sourceTree = "<group>"; };
+		3CDA08431859DED2003CCB1F /* jGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jGummyTile.png; sourceTree = "<group>"; };
+		3CDA08441859DED2003CCB1F /* kGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kGummyTile.png; sourceTree = "<group>"; };
+		3CDA08451859DED2003CCB1F /* qGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qGummyTile.png; sourceTree = "<group>"; };
+		3CDA08461859DED2003CCB1F /* scatterGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scatterGummyTile.png; sourceTree = "<group>"; };
+		3CDA08471859DED2003CCB1F /* tenGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenGummyTile.png; sourceTree = "<group>"; };
+		3CDA08481859DED2003CCB1F /* wateringGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wateringGummyTile.png; sourceTree = "<group>"; };
+		3CDA08491859DED2003CCB1F /* wildGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wildGummyTile.png; sourceTree = "<group>"; };
+		3CDA084A1859DED2003CCB1F /* windowGummyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windowGummyTile.png; sourceTree = "<group>"; };
 		CE81F5991764979900AAC7E4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CE81F5F01764BA4300AAC7E4 /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
 		CE81F5F11764BA4300AAC7E4 /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libChartboost.a; sourceTree = "<group>"; };
@@ -2172,11 +2238,11 @@
 				07E2723315D73B1500A108ED /* CoinsController.m */,
 				07BB204116C15D7A00D4B2E2 /* GameClassic20.h */,
 				07BB204216C15D7A00D4B2E2 /* GameClassic20.m */,
+				3CDA083E1859D9A8003CCB1F /* Slots */,
 				FA42204517954991000B3B73 /* GameClassic20~iphone.xib */,
 				FA42204417954991000B3B73 /* GameClassic20~ipad.xib */,
-				3C3A4F551859C0E4009CA18B /* Lobbys */,
+				3C3A4F551859C0E4009CA18B /* New Asset */,
 				3CB5CA30182BDD8700D918D0 /* Icons */,
-				3CB5CA2F182BDC6D00D918D0 /* New Resources */,
 				FA943C6B1796E8A0003DB869 /* Bonus */,
 				FA4220B717958346000B3B73 /* Old Resources */,
 				07573F5C15B4D35B00E5B7FE /* Supporting Files */,
@@ -2196,12 +2262,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3C3A4F551859C0E4009CA18B /* Lobbys */ = {
+		3C3A4F551859C0E4009CA18B /* New Asset */ = {
 			isa = PBXGroup;
 			children = (
+				3CB5CA2F182BDC6D00D918D0 /* New Resources */,
+				3CDA08101859D5B4003CCB1F /* Slot games */,
 				3C3A4F561859C0E4009CA18B /* Bears */,
 				3C3A4F631859C0E4009CA18B /* Generic Buttons */,
 			);
+			name = "New Asset";
 			path = Lobbys;
 			sourceTree = "<group>";
 		};
@@ -2266,6 +2335,7 @@
 				3CB5CA5F182BE09400D918D0 /* Font Families */,
 			);
 			name = "New Resources";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3CB5CA30182BDD8700D918D0 /* Icons */ = {
@@ -2418,6 +2488,89 @@
 				3CB5CA98182BF00800D918D0 /* sweetFieldsCard-Locked.png */,
 			);
 			name = "Cards Locked";
+			sourceTree = "<group>";
+		};
+		3CDA08101859D5B4003CCB1F /* Slot games */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA08121859D63F003CCB1F /* topButtonBar.png */,
+				3CDA08111859D5C0003CCB1F /* GummyGorves */,
+			);
+			name = "Slot games";
+			sourceTree = "<group>";
+		};
+		3CDA08111859D5C0003CCB1F /* GummyGorves */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA083F1859DED2003CCB1F /* GummyTiles */,
+				3CDA080E1859D5AE003CCB1F /* gummyGroveSlotsBacking.png */,
+			);
+			name = GummyGorves;
+			sourceTree = "<group>";
+		};
+		3CDA08191859D710003CCB1F /* SlotsGames Bear Land */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA08141859D6F0003CCB1F /* GummyGroceSlotsViewController.h */,
+				3CDA08151859D6F0003CCB1F /* GummyGroceSlotsViewController.m */,
+				3CDA08161859D6F0003CCB1F /* GummyGroceSlotsViewController.xib */,
+				3CDA081A1859D933003CCB1F /* JellyBeanSlotViewController.h */,
+				3CDA081B1859D933003CCB1F /* JellyBeanSlotViewController.m */,
+				3CDA081C1859D933003CCB1F /* JellyBeanSlotViewController.xib */,
+				3CDA081F1859D941003CCB1F /* JellyPoolViewController.h */,
+				3CDA08201859D941003CCB1F /* JellyPoolViewController.m */,
+				3CDA08211859D941003CCB1F /* JellyPoolViewController.xib */,
+				3CDA08241859D951003CCB1F /* JubeLandViewController.h */,
+				3CDA08251859D951003CCB1F /* JubeLandViewController.m */,
+				3CDA08261859D951003CCB1F /* JubeLandViewController.xib */,
+			);
+			name = "SlotsGames Bear Land";
+			sourceTree = "<group>";
+		};
+		3CDA083D1859D994003CCB1F /* Candy Planes SLots */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA08291859D96D003CCB1F /* LolipopMeadowsSlotsViewController.h */,
+				3CDA082A1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.m */,
+				3CDA082B1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.xib */,
+				3CDA082E1859D978003CCB1F /* SweetFieldsSlotsViewController.h */,
+				3CDA082F1859D978003CCB1F /* SweetFieldsSlotsViewController.m */,
+				3CDA08301859D978003CCB1F /* SweetFieldsSlotsViewController.xib */,
+				3CDA08331859D984003CCB1F /* RockyLandsSlotsViewController.h */,
+				3CDA08341859D984003CCB1F /* RockyLandsSlotsViewController.m */,
+				3CDA08351859D984003CCB1F /* RockyLandsSlotsViewController.xib */,
+				3CDA08381859D98E003CCB1F /* CandiedCreekSlotsViewController.h */,
+				3CDA08391859D98E003CCB1F /* CandiedCreekSlotsViewController.m */,
+				3CDA083A1859D98E003CCB1F /* CandiedCreekSlotsViewController.xib */,
+			);
+			name = "Candy Planes SLots";
+			sourceTree = "<group>";
+		};
+		3CDA083E1859D9A8003CCB1F /* Slots */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA083D1859D994003CCB1F /* Candy Planes SLots */,
+				3CDA08191859D710003CCB1F /* SlotsGames Bear Land */,
+			);
+			name = Slots;
+			sourceTree = "<group>";
+		};
+		3CDA083F1859DED2003CCB1F /* GummyTiles */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA08401859DED2003CCB1F /* aGummyTile.png */,
+				3CDA08411859DED2003CCB1F /* bonusGummyTile.png */,
+				3CDA08421859DED2003CCB1F /* gardenGummyTile.png */,
+				3CDA08431859DED2003CCB1F /* jGummyTile.png */,
+				3CDA08441859DED2003CCB1F /* kGummyTile.png */,
+				3CDA08451859DED2003CCB1F /* qGummyTile.png */,
+				3CDA08461859DED2003CCB1F /* scatterGummyTile.png */,
+				3CDA08471859DED2003CCB1F /* tenGummyTile.png */,
+				3CDA08481859DED2003CCB1F /* wateringGummyTile.png */,
+				3CDA08491859DED2003CCB1F /* wildGummyTile.png */,
+				3CDA084A1859DED2003CCB1F /* windowGummyTile.png */,
+			);
+			path = GummyTiles;
 			sourceTree = "<group>";
 		};
 		CE81F5EF1764BA4300AAC7E4 /* Chartboost */ = {
@@ -3792,6 +3945,7 @@
 				FA4224851795834A000B3B73 /* bigwin_popup@2x.png in Resources */,
 				FA42249A1795834A000B3B73 /* bonus_popup@2x.png in Resources */,
 				FA42249B1795834A000B3B73 /* bonus_textarea@2x.png in Resources */,
+				3CDA081E1859D933003CCB1F /* JellyBeanSlotViewController.xib in Resources */,
 				FA42249C1795834A000B3B73 /* bonus_wintext@2x.png in Resources */,
 				FA42249D1795834A000B3B73 /* box_10@2x.png in Resources */,
 				FA42249E1795834A000B3B73 /* box_11@2x.png in Resources */,
@@ -3854,6 +4008,7 @@
 				FA4224EF1795834A000B3B73 /* 30_bundle_30@2x.png in Resources */,
 				FA4224F01795834A000B3B73 /* 30_bundle_3@2x.png in Resources */,
 				FA4224F11795834A000B3B73 /* 30_bundle_4@2x.png in Resources */,
+				3CDA08551859DED2003CCB1F /* windowGummyTile.png in Resources */,
 				FA4224F21795834A000B3B73 /* 30_bundle_5@2x.png in Resources */,
 				FA4224F31795834A000B3B73 /* 30_bundle_6@2x.png in Resources */,
 				FA4224F41795834A000B3B73 /* 30_bundle_7@2x.png in Resources */,
@@ -3877,6 +4032,7 @@
 				FA4225051795834A000B3B73 /* bundle_4@2x.png in Resources */,
 				FA4225061795834A000B3B73 /* bundle_5@2x.png in Resources */,
 				FA4225071795834A000B3B73 /* bundle_6@2x.png in Resources */,
+				3CDA080F1859D5AE003CCB1F /* gummyGroveSlotsBacking.png in Resources */,
 				FA4225081795834A000B3B73 /* bundle_7@2x.png in Resources */,
 				FA4225091795834A000B3B73 /* bundle_8@2x.png in Resources */,
 				FA42250A1795834A000B3B73 /* bundle_9@2x.png in Resources */,
@@ -3895,6 +4051,7 @@
 				FA4225151795834A000B3B73 /* ipad_30_bundle_1@2x.png in Resources */,
 				FA4225161795834A000B3B73 /* ipad_30_bundle_20@2x.png in Resources */,
 				FA4225171795834A000B3B73 /* ipad_30_bundle_21@2x.png in Resources */,
+				3CDA08231859D941003CCB1F /* JellyPoolViewController.xib in Resources */,
 				FA4225181795834A000B3B73 /* ipad_30_bundle_22@2x.png in Resources */,
 				FA4225191795834A000B3B73 /* ipad_30_bundle_23@2x.png in Resources */,
 				FA42251A1795834A000B3B73 /* ipad_30_bundle_24@2x.png in Resources */,
@@ -3921,6 +4078,7 @@
 				FA42252F1795834A000B3B73 /* ipad_bundle_16@2x.png in Resources */,
 				FA4225301795834A000B3B73 /* ipad_bundle_17@2x.png in Resources */,
 				FA4225311795834A000B3B73 /* ipad_bundle_18@2x.png in Resources */,
+				3CDA08531859DED2003CCB1F /* wateringGummyTile.png in Resources */,
 				FA4225321795834A000B3B73 /* ipad_bundle_19@2x.png in Resources */,
 				FA4225331795834A000B3B73 /* ipad_bundle_1@2x.png in Resources */,
 				FA4225341795834A000B3B73 /* ipad_bundle_20@2x.png in Resources */,
@@ -3956,6 +4114,7 @@
 				FA42254E1795834A000B3B73 /* chest_open_coins.png in Resources */,
 				FA42254F1795834A000B3B73 /* chest_open_coins@2x.png in Resources */,
 				FA4225501795834A000B3B73 /* ipad_chest.png in Resources */,
+				3CDA08181859D6F0003CCB1F /* GummyGroceSlotsViewController.xib in Resources */,
 				FA4225511795834A000B3B73 /* ipad_chest@2x.png in Resources */,
 				FA4225521795834A000B3B73 /* ipad_chest_open.png in Resources */,
 				FA4225531795834A000B3B73 /* ipad_chest_open@2x.png in Resources */,
@@ -4004,6 +4163,7 @@
 				FA42257D1795834A000B3B73 /* ipad_design_x2@2x.png in Resources */,
 				FA42257E1795834A000B3B73 /* ipad_design_x5@2x.png in Resources */,
 				3CB5CA45182BDD8700D918D0 /* apple-touch-icon-72x72-precomposed.png in Resources */,
+				3CDA083C1859D98E003CCB1F /* CandiedCreekSlotsViewController.xib in Resources */,
 				FA42257F1795834A000B3B73 /* ipad_design_xnowin@2x.png in Resources */,
 				FA4225801795834A000B3B73 /* diamond.png in Resources */,
 				FA4225811795834A000B3B73 /* displayBuyCoins.png in Resources */,
@@ -4055,6 +4215,7 @@
 				FA4226081795834A000B3B73 /* ipad_sound_off@2x.png in Resources */,
 				FA4226091795834A000B3B73 /* ipad_sound_on@2x.png in Resources */,
 				FA42260C1795834A000B3B73 /* item_blue.png in Resources */,
+				3CDA08541859DED2003CCB1F /* wildGummyTile.png in Resources */,
 				FA42260D1795834A000B3B73 /* item_blue@2x.png in Resources */,
 				FA42260E1795834A000B3B73 /* item_jackpot.png in Resources */,
 				FA42260F1795834A000B3B73 /* item_jackpot@2x.png in Resources */,
@@ -4150,6 +4311,7 @@
 				FA42268A1795834A000B3B73 /* line_button_25@2x.png in Resources */,
 				FA42268B1795834A000B3B73 /* line_button_26@2x.png in Resources */,
 				FA42268C1795834A000B3B73 /* line_button_27@2x.png in Resources */,
+				3CDA08501859DED2003CCB1F /* qGummyTile.png in Resources */,
 				FA42268D1795834A000B3B73 /* line_button_28@2x.png in Resources */,
 				3CB5CA4D182BDD8700D918D0 /* Icon-Small-50.png in Resources */,
 				FA42268E1795834A000B3B73 /* line_button_29@2x.png in Resources */,
@@ -4166,6 +4328,7 @@
 				FA4226961795834A000B3B73 /* line_button_8@2x.png in Resources */,
 				FA4226971795834A000B3B73 /* line_button_9@2x.png in Resources */,
 				FA4226981795834A000B3B73 /* line_cover.png in Resources */,
+				3CDA08521859DED2003CCB1F /* tenGummyTile.png in Resources */,
 				FA4226991795834A000B3B73 /* line_cover@2x.png in Resources */,
 				FA42269A1795834A000B3B73 /* 30_line10@2x.png in Resources */,
 				FA42269B1795834A000B3B73 /* 30_line11@2x.png in Resources */,
@@ -4258,6 +4421,7 @@
 				FA4226EB1795834A000B3B73 /* line11@2x.png in Resources */,
 				FA4226EC1795834A000B3B73 /* line12@2x.png in Resources */,
 				FA4226ED1795834A000B3B73 /* line13@2x.png in Resources */,
+				3CDA084F1859DED2003CCB1F /* kGummyTile.png in Resources */,
 				FA4226EE1795834A000B3B73 /* line14@2x.png in Resources */,
 				FA4226EF1795834A000B3B73 /* line15@2x.png in Resources */,
 				FA4226F01795834A000B3B73 /* line16@2x.png in Resources */,
@@ -4363,13 +4527,16 @@
 				FA4228051795834B000B3B73 /* tinyButton.png in Resources */,
 				FA4228061795834B000B3B73 /* tinyButton@2x.png in Resources */,
 				FA4228071795834B000B3B73 /* top.png in Resources */,
+				3CDA084C1859DED2003CCB1F /* bonusGummyTile.png in Resources */,
 				FA4228081795834B000B3B73 /* top@2x.png in Resources */,
 				FA4228091795834B000B3B73 /* toplogo.png in Resources */,
 				FA42280A1795834B000B3B73 /* toplogo@2x.png in Resources */,
 				FA287C0A179D3065005BA9D7 /* ipad_box_9@2x.png in Resources */,
+				3CDA08281859D951003CCB1F /* JubeLandViewController.xib in Resources */,
 				FA287C0B179D3065005BA9D7 /* ipad_box_8@2x.png in Resources */,
 				FA287C0C179D3065005BA9D7 /* ipad_box_7@2x.png in Resources */,
 				FA287C0D179D3065005BA9D7 /* ipad_box_6@2x.png in Resources */,
+				3CDA084E1859DED2003CCB1F /* jGummyTile.png in Resources */,
 				FA287C0E179D3065005BA9D7 /* ipad_box_30@2x.png in Resources */,
 				FA287C0F179D3065005BA9D7 /* ipad_box_5@2x.png in Resources */,
 				FA287C10179D3065005BA9D7 /* ipad_box_4@2x.png in Resources */,
@@ -4382,8 +4549,10 @@
 				FA287C17179D3065005BA9D7 /* ipad_box_26@2x.png in Resources */,
 				FA287C18179D3065005BA9D7 /* ipad_box_22@2x.png in Resources */,
 				FA287C19179D3065005BA9D7 /* ipad_box_23@2x.png in Resources */,
+				3CDA08321859D978003CCB1F /* SweetFieldsSlotsViewController.xib in Resources */,
 				FA287C1A179D3065005BA9D7 /* ipad_box_24@2x.png in Resources */,
 				FA287C1B179D3065005BA9D7 /* ipad_box_21@2x.png in Resources */,
+				3CDA084D1859DED2003CCB1F /* gardenGummyTile.png in Resources */,
 				FA287C1C179D3065005BA9D7 /* ipad_box_1@2x.png in Resources */,
 				FA287C1D179D3065005BA9D7 /* ipad_box_20@2x.png in Resources */,
 				FA287C1E179D3065005BA9D7 /* ipad_box_17@2x.png in Resources */,
@@ -4418,6 +4587,7 @@
 				FAD00EB917A941A5007186F1 /* ipad_bingoitem_Wild@2x.png in Resources */,
 				3CB5CA52182BDD8700D918D0 /* Icon@2x.png in Resources */,
 				FAD00EBA17A941A5007186F1 /* game10@2x.png in Resources */,
+				3CDA084B1859DED2003CCB1F /* aGummyTile.png in Resources */,
 				FAD00EBB17A941A5007186F1 /* game10_locked@2x.png in Resources */,
 				FAD00EBC17A941A5007186F1 /* game11@2x.png in Resources */,
 				FAD00EBD17A941A5007186F1 /* game11_locked@2x.png in Resources */,
@@ -4450,6 +4620,7 @@
 				FAD00ED517A941A5007186F1 /* ipad_game11@2x.png in Resources */,
 				FAD00ED617A941A5007186F1 /* ipad_game11_locked@2x.png in Resources */,
 				3CB5CA54182BDD8700D918D0 /* iTunesArtwork@2x.png in Resources */,
+				3CDA082D1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.xib in Resources */,
 				FAD00ED717A941A5007186F1 /* ipad_game12@2x.png in Resources */,
 				FAD00ED817A941A5007186F1 /* ipad_game12_locked@2x.png in Resources */,
 				FAD00ED917A941A5007186F1 /* ipad_game1@2x.png in Resources */,
@@ -4509,6 +4680,7 @@
 				FAD00F0917A941A5007186F1 /* ipad_horseitem_7@2x.png in Resources */,
 				FAD00F0A17A941A5007186F1 /* ipad_horseitem_A@2x.png in Resources */,
 				FAD00F0B17A941A5007186F1 /* ipad_horseitem_Bonus@2x.png in Resources */,
+				3CDA08131859D63F003CCB1F /* topButtonBar.png in Resources */,
 				FAD00F0C17A941A5007186F1 /* ipad_horseitem_Diamond@2x.png in Resources */,
 				FAD00F0D17A941A5007186F1 /* ipad_horseitem_J@2x.png in Resources */,
 				FAD00F0E17A941A5007186F1 /* ipad_horseitem_K@2x.png in Resources */,
@@ -4543,6 +4715,7 @@
 				FAD00F2B17A941A5007186F1 /* ipad_megaitem_J@2x.png in Resources */,
 				FAD00F2C17A941A5007186F1 /* ipad_megaitem_K@2x.png in Resources */,
 				FAD00F2D17A941A5007186F1 /* ipad_megaitem_Lemon@2x.png in Resources */,
+				3CDA08511859DED2003CCB1F /* scatterGummyTile.png in Resources */,
 				3C3A4F691859C0E4009CA18B /* beanGardenLocked.png in Resources */,
 				FAD00F2E17A941A5007186F1 /* ipad_megaitem_Q@2x.png in Resources */,
 				FAD00F2F17A941A5007186F1 /* ipad_megaitem_Star@2x.png in Resources */,
@@ -4604,6 +4777,7 @@
 				FAD00F6617A941A5007186F1 /* ipad_sportsitem_Diamond@2x.png in Resources */,
 				FAD00F6717A941A5007186F1 /* ipad_sportsitem_J@2x.png in Resources */,
 				FAD00F6817A941A5007186F1 /* ipad_sportsitem_K@2x.png in Resources */,
+				3CDA08371859D984003CCB1F /* RockyLandsSlotsViewController.xib in Resources */,
 				FAD00F6917A941A5007186F1 /* ipad_sportsitem_Lemon@2x.png in Resources */,
 				FAD00F6A17A941A5007186F1 /* ipad_sportsitem_Q@2x.png in Resources */,
 				FAD00F6B17A941A5007186F1 /* ipad_sportsitem_Star@2x.png in Resources */,
@@ -4661,6 +4835,7 @@
 				0714CAD915DDA11900FBD76A /* Reachability.m in Sources */,
 				07E2723A15D73EC300A108ED /* SKProduct+priceAsString.m in Sources */,
 				07E2723B15D73EC300A108ED /* CoinsController.m in Sources */,
+				3CDA08361859D984003CCB1F /* RockyLandsSlotsViewController.m in Sources */,
 				070D970915CAF0CA0083C5FB /* GameCenterManager.m in Sources */,
 				07573F6215B4D35B00E5B7FE /* main.m in Sources */,
 				07573F6615B4D35C00E5B7FE /* AppDelegate.m in Sources */,
@@ -4674,6 +4849,7 @@
 				D730CD62176BED0700E215E0 /* PHAPIRequest.m in Sources */,
 				D730CD63176BED0700E215E0 /* PHConnectionManager.m in Sources */,
 				D730CD64176BED0700E215E0 /* PHConstants.m in Sources */,
+				3CDA08221859D941003CCB1F /* JellyPoolViewController.m in Sources */,
 				D730CD65176BED0700E215E0 /* PHContent.m in Sources */,
 				D730CD66176BED0700E215E0 /* PHContentView.m in Sources */,
 				D730CD67176BED0700E215E0 /* PHNetworkUtil.m in Sources */,
@@ -4684,7 +4860,9 @@
 				D730CD6C176BED0700E215E0 /* PHPublisherIAPTrackingRequest.m in Sources */,
 				D730CD6D176BED0700E215E0 /* PHPublisherMetadataRequest.m in Sources */,
 				D730CD6E176BED0700E215E0 /* PHPublisherOpenRequest.m in Sources */,
+				3CDA08311859D978003CCB1F /* SweetFieldsSlotsViewController.m in Sources */,
 				D730CD6F176BED0700E215E0 /* PHPublisherSubcontentRequest.m in Sources */,
+				3CDA08271859D951003CCB1F /* JubeLandViewController.m in Sources */,
 				D730CD70176BED0700E215E0 /* PHPurchase.m in Sources */,
 				D730CD71176BED0700E215E0 /* PHResourceCacher.m in Sources */,
 				D730CD72176BED0700E215E0 /* PHReward.m in Sources */,
@@ -4708,12 +4886,16 @@
 				FA421F5D17954857000B3B73 /* ALDevice.m in Sources */,
 				FA421F5E17954857000B3B73 /* ALListener.m in Sources */,
 				FA421F5F17954857000B3B73 /* ALSoundSourcePool.m in Sources */,
+				3CDA082C1859D96D003CCB1F /* LolipopMeadowsSlotsViewController.m in Sources */,
+				3CDA083B1859D98E003CCB1F /* CandiedCreekSlotsViewController.m in Sources */,
 				FA421F6017954857000B3B73 /* ALSource.m in Sources */,
+				3CDA081D1859D933003CCB1F /* JellyBeanSlotViewController.m in Sources */,
 				FA421F6117954857000B3B73 /* ALWrapper.m in Sources */,
 				FA421F6217954857000B3B73 /* OpenALManager.m in Sources */,
 				FA421F6317954857000B3B73 /* OALAudioSession.m in Sources */,
 				FA421F6417954857000B3B73 /* OALSuspendHandler.m in Sources */,
 				FA421F6517954857000B3B73 /* IOSVersion.m in Sources */,
+				3CDA08171859D6F0003CCB1F /* GummyGroceSlotsViewController.m in Sources */,
 				FA421F6617954857000B3B73 /* mach_timing.c in Sources */,
 				FA421F6717954857000B3B73 /* NSMutableArray+WeakReferences.m in Sources */,
 				FA421F6817954857000B3B73 /* NSMutableDictionary+WeakReferences.m in Sources */,
